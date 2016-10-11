@@ -22,3 +22,4 @@ The ultimate goal of our project is to develop a web-based text editor that solv
 
 Configuration Management Plan
 =============================
+The project source code and important documentations will be stored in GitHub and ***only*** approved changes will be allowed to merge with the repository. GitHub will provide the necessary means to resolve conflicts should two or more changes (or upload) interfere with each other. We expect everyone to do their delegated tasks and upload their files via a pull request in a timely manner, so the group can look over the file.

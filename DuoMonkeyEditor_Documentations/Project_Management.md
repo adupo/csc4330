@@ -27,11 +27,13 @@ The project source code and important documentations will be stored in GitHub an
 Process Model
 =============
 See: https://en.wikipedia.org/wiki/Process_modeling
+
 **TODO**: ask prof. Nash how he wants to do this
 
 Deliverables
 ============
 See: http://www.projectengineer.net/25-example-project-deliverables/
+
 **TODO**: add more stuff here
 - Website: the main product
 

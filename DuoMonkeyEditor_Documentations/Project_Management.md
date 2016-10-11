@@ -6,7 +6,7 @@
 ========================================================================================================================================
 Index
 =====
-** Note: Use Ctrl-F to navigate the document] **
+** Note: Use Ctrl-F to navigate the document **
 - Vision
 - Configuration Management Plan
 - Process Model

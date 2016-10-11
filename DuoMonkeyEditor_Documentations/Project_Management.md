@@ -12,7 +12,7 @@ Index
 - Process Model
 - Deliverables
 - Potential Risks
-- Team Memnbers (w/ their roles & tasks)
+- Team Members (w/ their roles & tasks)
 - Project Schedule
 - Meetings Summary
 
@@ -23,3 +23,26 @@ The ultimate goal of our project is to develop a web-based text editor that solv
 Configuration Management Plan
 =============================
 The project source code and important documentations will be stored in GitHub and ***only*** approved changes will be allowed to merge with the repository. GitHub will provide the necessary means to resolve conflicts should two or more changes (or upload) interfere with each other. We expect everyone to do their delegated tasks and upload their files via a pull request in a timely manner, so the group can look over the file.
+
+Process Model
+=============
+See: https://en.wikipedia.org/wiki/Process_modeling
+**TODO**: ask prof. Nash how he wants to do this
+
+Deliverables
+============
+See: http://www.projectengineer.net/25-example-project-deliverables/
+**TODO**: add more stuff here
+- Website: the main product
+
+Potential Risks
+===============
+**TODO**: add more stuff here
+Here are the possible risks that our group must consider for the project:
+- The website requires the user to sign-in with their Google account or GitHub, sensitive information may be leaked or stolen
+- Users may work with important data/code that have a possibility of being lost should there be something wrong with the server
+- Code done on the website have a possibility of being stolen
+
+Team Members
+============
+Development of the project will be conducted in a ... style

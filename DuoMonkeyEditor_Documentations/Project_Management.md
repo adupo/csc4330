@@ -11,7 +11,7 @@ Index
 - Configuration Management Plan ...........[0b0001]
 - Process Model ...........................[0b0010]
 - Deliverables ............................[0b0011]
-- Potential Risks .........................[0b0100]
+- Potential Risks ..................................[0b0100]
 - Team Memnbers (w/ their roles & tasks) ..[0b0101]
 - Project Schedule ........................[0b0110]
 - Meetings Summary ........................[0b0111]

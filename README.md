@@ -1,5 +1,5 @@
-Pair Programming
-================
+DuoMonkeyEditor
+===============
 This repository will hold our group project for CSC 4330.
 Members include
 ---------------
@@ -22,7 +22,7 @@ Work to be Done (Within Next Week)
 ----------------------------------
 - Must research the practicality of creating a text editor from scratch.
 - Must start to assign meet up dates
-- Must delegate who will be in charge of what - Current Wilson want back end and the 
+- Must delegate who will be in charge of what - Current Wilson want back-end and the 
 rest of us are unsure about our positions.
 - Discuss a time to meet up after class and have a standing time to meet so we can 
 work more on this project

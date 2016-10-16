@@ -21,5 +21,4 @@ Work to be Done
 ---------------
 * Must meet up for the Requirements document (due on Oct. 21)
   * Do the Requirements document
-* Start modifying existing chat system (with the required changes that was discussed in our last meeting
-
+* Start modifying existing chat system (with the required changes that was discussed in our last meeting)

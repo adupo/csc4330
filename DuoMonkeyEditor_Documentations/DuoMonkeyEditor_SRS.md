@@ -37,3 +37,13 @@ Table of Contents
   * Appendix A: Glossary  
   * Appendix B: Analysis Models  
   * Appendix C: To Be Determined List  
+
+Revision History
+================
+TODO: Put something here
+
+Introduction
+============
+Purpose
+-------
+The purpose of our project is to provide a way for programmers to work together (more specifically pair programming) with idea of distance not being a problem

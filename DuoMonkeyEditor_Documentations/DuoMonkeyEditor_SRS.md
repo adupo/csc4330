@@ -73,14 +73,15 @@ DuoMonkeyEditor is a web application that aims to enable programmers working in 
  
 References
 ----------
+** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **
 [Firebase Reference](https://firebase.google.com/docs/reference/js/)  
 [Firechat Reference](https://firechat.firebaseapp.com/docs/)  
 [Firepad Reference](https://firepad.firebaseapp.com/docs/)  
-** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **
-
 
 Overall Description
 ===================
 This section give the entire overview of the system that the DuoMonkeyEditor is composed of as well as the interactions with other applications or systems.
+
 Product Perspective
 -------------------
+The DuoMonkeyEditor is composed of two components: the webpage and the Firebase server. The web

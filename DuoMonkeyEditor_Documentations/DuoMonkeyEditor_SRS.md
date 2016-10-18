@@ -61,3 +61,14 @@ The target audience of this software requirements specification is for those who
  * Testers
  
 The software requirements specification is formatted based on the IEEE Std 830-1998 where the readers can nagivate the document using the table of contents.
+
+Product Scope
+-------------
+The goal of this product is to enable programmers working in pairs to communication and work together, where physical distance is not a factor. The product will involve:
+ * A Firebase server that is hosted by Google, which will provide a way for host the web application without having to worry about the back-end development of the application
+ * Web browsers, which is the only way of accessing the web application
+ * The web application, which is the core of the website that will provide the functionality of a code editor with an integrated chat system
+ 
+References
+----------
+[Firebase API Reference](https://firebase.google.com/docs/reference/js/) 

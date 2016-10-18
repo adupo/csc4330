@@ -46,4 +46,7 @@ Introduction
 ============
 Purpose
 -------
-The purpose of our project is to provide a way for programmers to work together (more specifically pair programming) with idea of distance not being a problem
+The final product of this software specification is a working website (v1.0) that is composed of users, a chat system, and a code editor
+Document Convention
+-------------------
+TODO

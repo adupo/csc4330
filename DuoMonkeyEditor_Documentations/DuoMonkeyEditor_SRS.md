@@ -65,10 +65,17 @@ The software requirements specification is formatted based on the IEEE Std 830-1
 Product Scope
 -------------
 The goal of this product is to enable programmers working in pairs to communication and work together, where physical distance is not a factor. The product will involve:
- * A Firebase server that is hosted by Google, which will provide a way for host the web application without having to worry about the back-end development of the application
+ * A Firebase server that is hosted by Google, which will provide a way for host the web application without having to worry about the back-end development of the application. The server will also provide a way to authenticate users and real-time data synchronization
  * Web browsers, which is the only way of accessing the web application
- * The web application, which is the core of the website that will provide the functionality of a code editor with an integrated chat system
+ * The web application, which is the core of the product that will provide the main features of the product
  
 References
 ----------
-[Firebase API Reference](https://firebase.google.com/docs/reference/js/) 
+[Firebase Reference](https://firebase.google.com/docs/reference/js/)  
+[Firechat Reference](https://firechat.firebaseapp.com/docs/)
+[Firepad Reference](https://firepad.firebaseapp.com/docs/)
+** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **
+
+
+Overall Description
+===================

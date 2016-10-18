@@ -1,14 +1,14 @@
 # Software Requirements Specification for DuoMonkeyEditor (version 1.0 approved)
-### Prepared by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
+## Prepared by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
-#### Table of Contents
-Revision History  
-1.	Introduction  
-  1.1	Purpose  
-  1.2	Document Conventions  
-  1.3	Intended Audience and Reading Suggestions  
-  1.4	Product Scope  
-  1.5	References  
+### Table of Contents
+#### Revision History  
+#### 1.	Introduction  
+  #### 1.1	Purpose  
+  #### 1.2	Document Conventions  
+  #### 1.3	Intended Audience and Reading Suggestions  
+  #### 1.4	Product Scope  
+  #### 1.5	References  
 2.	Overall Description
   2.1	Product Perspective
   2.2	Product Functions

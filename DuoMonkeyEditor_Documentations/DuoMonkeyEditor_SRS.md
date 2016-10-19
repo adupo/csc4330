@@ -122,7 +122,7 @@ Hardware Interfaces
 
 Software Interfaces
 -------------------
-DuoMonkeyEditor can be accessed by any devices that can run web browser applications including Chrome, Internet Explorer, Mozilla Firefox, or Safari. Devices that access DuoMonkeyEditor includes any computer or smaller devices including tablets and mobile devices that runs on iOS, Windows, or Android operating systems.
+DuoMonkeyEditor can be accessed by any devices that can run the latest version web browser applications including Chrome(54.0.2840.59), Microsoft Edge(38.14393.0.0) , Mozilla Firefox(49.0.1), or Safari(10.0). Devices that access DuoMonkeyEditor includes any desktop/laptop computer or smaller devices including tablets and mobile devices that runs on iOS, Windows, or Android operating systems up to the latest version.
 
 Communications Interfaces
 -------------------------

@@ -1,6 +1,6 @@
 Software Requirements Specification for DuoMonkeyEditor (version 1.0 approved)
 ==============================================================================
-Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
+Created by Wilson Zhu
 
 Table of Contents
 =================
@@ -87,3 +87,7 @@ Product Perspective
 The DuoMonkeyEditor is aim to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
                           [user] ----(interacts)----> [webpage] ----(passes user input)----> [server]
+
+Product Functions
+-----------------
+The DuoMonkeyEditor will have the following functions:

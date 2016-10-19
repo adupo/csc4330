@@ -106,4 +106,5 @@ Login
 The authenicates users, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  
-   user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
+
+    user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server

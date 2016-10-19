@@ -86,4 +86,4 @@ Product Perspective
 -------------------
 The DuoMonkeyEditor is aim to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
-                          [user] ----(interacts)---- [webpage] -------- [server]
+                          [user] ----(interacts)----> [webpage] ----(passes user input)----> [server]

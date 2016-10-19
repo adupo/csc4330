@@ -1,6 +1,6 @@
 Software Requirements Specification for DuoMonkeyEditor (version 1.0 approved)
 ==============================================================================
-Created by Wilson Zhu
+Created by Aaron Dupont, Wilson Zhu
 
 Table of Contents
 =================

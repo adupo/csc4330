@@ -139,10 +139,10 @@ Response Sequence:
     user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server ---(adds user)
     
 Function Requirements:  
- * Login button: User uses to initiate login action
- * Email input field: Will take in Google email account; will throw error if empty
- * Password input field: Will take in the user's Google passwork; will throw error if empty
- * Authenication: Will check user's inputted Google account and password
+ * Login button: To initiate login action
+ * Email input field: Will take in Google email account
+ * Password input field: Will take in the user's Google password
+ * Authenication: Checks user's inputted Google account and password; will throw error if fields are incorrect/empty
  
 Chat
 ----
@@ -152,4 +152,9 @@ Response Sequence:
 
     user ---(creates chat room)---> webpage ---(calls)---> server ---(instantiate chat room)---> webpage ---(displays chat room)---> user
     
-    user ---(joins chat room)---> webpage ---(calls)---> server
+    user ---(joins chat room; inputs password)---> webpage ---(calls)---> server ---(validates; add user to room)---> webpage ---(displays chat room) ---> user
+
+Function Requirements:
+ * Create Room button: To instantiate a chat room (also ask for a password for the room)
+ * Join Room button: To join a chat room (user must also input the correct password)
+ * The maximum number of users allowed in the chat room is two (for pair programming)

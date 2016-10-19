@@ -93,3 +93,17 @@ Product Functions
 The DuoMonkeyEditor will have the following major functions:
  * login: the main way of authenicating users, and allowing access to other major functions
  * create: 
+
+External Interface Requirements
+===============================
+TODO: Put stuff here
+
+System Features
+===============
+
+Login
+-----
+The authenicates users, and allow user access to other features  
+Priority: Very high  
+Response Sequence:  
+   user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server

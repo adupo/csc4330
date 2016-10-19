@@ -126,7 +126,7 @@ DuoMonkeyEditor can be accessed by any devices that can run the latest version w
 
 Communications Interfaces
 -------------------------
-
+A working Gmail account will be needed to access DuoMonkeyEditor, and the latest available web browser application as well. All users of DuoMonkeyEditor must also have access to Internet, either Wi-Fi or ethernet.
 System Features
 ===============
 

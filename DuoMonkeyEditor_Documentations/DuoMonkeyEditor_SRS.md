@@ -73,7 +73,7 @@ DuoMonkeyEditor is a web application that aims to enable programmers working in 
  
 References
 ----------
-** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **
+** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **  
 [Firebase Reference](https://firebase.google.com/docs/reference/js/)  
 [Firechat Reference](https://firechat.firebaseapp.com/docs/)  
 [Firepad Reference](https://firepad.firebaseapp.com/docs/)  
@@ -119,6 +119,7 @@ User Interfaces
 
 Hardware Interfaces
 -------------------
+An electronic device that has access to Internet, has virtual or physical keyboard for typing, and a display screen. 
 
 Software Interfaces
 -------------------
@@ -127,6 +128,7 @@ DuoMonkeyEditor can be accessed by any devices that can run the latest version w
 Communications Interfaces
 -------------------------
 A working Gmail account will be needed to access DuoMonkeyEditor, and the latest available web browser application as well. All users of DuoMonkeyEditor must also have access to Internet, either Wi-Fi or ethernet.
+
 System Features
 ===============
 

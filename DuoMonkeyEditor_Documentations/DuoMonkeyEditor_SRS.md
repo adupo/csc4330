@@ -119,6 +119,7 @@ User Interfaces
 
 Hardware Interfaces
 -------------------
+DuoMonkeyEditor can be accessed by any devices that can run web browser applications including Chrome, Internet Explorer, Mozilla Firefox, or Safari. Devices that access DuoMonkeyEditor includes any computer or smaller devices including tablets and mobile devices that runs on iOS, Windows, or Android operating systems.
 
 Software Interfaces
 -------------------

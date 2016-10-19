@@ -90,4 +90,6 @@ The DuoMonkeyEditor is aim to be a workaround or replacement to current text edi
 
 Product Functions
 -----------------
-The DuoMonkeyEditor will have the following functions:
+The DuoMonkeyEditor will have the following major functions:
+ * login: the main way of authenicating users, and allowing access to other major functions
+ * create: 

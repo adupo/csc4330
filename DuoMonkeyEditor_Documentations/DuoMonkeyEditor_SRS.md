@@ -103,8 +103,9 @@ System Features
 
 Login
 -----
-The authenicates users, and allow user access to other features  
+ 4.1.1 Description: The authenicates users, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  
 
     user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
+Function Requirements

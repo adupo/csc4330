@@ -103,9 +103,16 @@ System Features
 
 Login
 -----
- 4.1.1 Description: The authenicates users, and allow user access to other features  
+Description: Authenicates users using their Google account, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  
 
     user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
-Function Requirements
+    
+Function Requirements:  
+ * Login button: User uses to initiate login action
+ * Email input field: Will take in Google email account; will throw error if empty
+ * Password input field: Will take in the user's Google passwork; will throw error if empty
+ * Authenication: Will check user's inputted Google account and password
+ 
+ 

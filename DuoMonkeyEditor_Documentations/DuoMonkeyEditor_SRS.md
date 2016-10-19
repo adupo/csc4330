@@ -116,6 +116,7 @@ TODO: Put stuff here
 
 User Interfaces
 ---------------
+Users will click on "Login with Google" on the front page.....(More to come...)
 
 Hardware Interfaces
 -------------------

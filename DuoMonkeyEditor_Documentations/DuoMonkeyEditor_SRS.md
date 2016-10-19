@@ -80,11 +80,11 @@ References
 
 Overall Description
 ===================
-This section give the entire overview of the system that the DuoMonkeyEditor is composed of as well as the interactions with other applications or systems.
+This section gives the entire overview of the system that the DuoMonkeyEditor is composed of as well as the interactions with other applications or systems.
 
 Product Perspective
 -------------------
-The DuoMonkeyEditor is aim to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
+The DuoMonkeyEditor is designed to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
     [user] ---(interacts)---> [webpage] ---(passes user input)---> [server]
 
@@ -93,16 +93,44 @@ Product Functions
 The DuoMonkeyEditor will have the following major functions:
  * login: the main way of authenticating users, and allowing access to other major functions
  * create: 
+ Insert "top level data flow diagram or object class diagram here"
+ 
+User Classes and Characteristics
+--------------------------------
+
+Operating Environment
+---------------------
+
+Design and Implementation Constraints
+-------------------------------------
+
+User Documentation
+------------------
+
+Assumptions and Dependencies
+----------------------------
 
 External Interface Requirements
 ===============================
 TODO: Put stuff here
 
+User Interfaces
+---------------
+
+Hardware Interfaces
+-------------------
+
+Software Interfaces
+-------------------
+
+Communications Interfaces
+-------------------------
+
 System Features
 ===============
 
-Login
------
+User Login
+----------
 Authenticates users using their Google account, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  

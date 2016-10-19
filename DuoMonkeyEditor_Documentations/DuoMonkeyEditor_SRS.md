@@ -86,12 +86,12 @@ Product Perspective
 -------------------
 The DuoMonkeyEditor is aim to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
-                          [user] ----(interacts)----> [webpage] ----(passes user input)----> [server]
+    [user] ---(interacts)---> [webpage] ---(passes user input)---> [server]
 
 Product Functions
 -----------------
 The DuoMonkeyEditor will have the following major functions:
- * login: the main way of authenicating users, and allowing access to other major functions
+ * login: the main way of authenticating users, and allowing access to other major functions
  * create: 
 
 External Interface Requirements
@@ -103,11 +103,11 @@ System Features
 
 Login
 -----
-Description: Authenicates users using their Google account, and allow user access to other features  
+Authenticates users using their Google account, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  
 
-    user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
+    user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server ---(adds user)
     
 Function Requirements:  
  * Login button: User uses to initiate login action
@@ -115,4 +115,12 @@ Function Requirements:
  * Password input field: Will take in the user's Google passwork; will throw error if empty
  * Authenication: Will check user's inputted Google account and password
  
- 
+Chat
+----
+The main way for users to communicate with their partner  
+Priority: High
+Response Sequence:
+
+    user ---(creates chat room)---> webpage ---(calls)---> server ---(instantiate chat room)---> webpage ---(displays chat room)---> user
+    
+    user ---(joins chat room)---> webpage ---(calls)---> server

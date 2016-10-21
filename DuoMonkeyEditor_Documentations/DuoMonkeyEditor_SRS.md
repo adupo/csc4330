@@ -1,6 +1,6 @@
 Software Requirements Specification for DuoMonkeyEditor (version 1.0 approved)
 ==============================================================================
-Created by Aaron Dupont, Wilson Zhu
+Created by Aaron Dupont, Wilson Zhu, Jason Lee, Blake Allen, Kevin Elizabeth
 
 Table of Contents
 =================
@@ -49,11 +49,11 @@ This section gives a brief overview of everything about the DuoMonkeyEditor web 
 
 Purpose
 -------
-The purpose of this document is to give a detailed description of all the requirements for the DuoMonkeyEditor web application. The document also describes may other aspects of the application such as the design constraints and interfaces.
+The purpose of this document is to give a detailed description of all the requirements for the DuoMonkeyEditor web application. The document also describes many other aspects of the application such as the design constraints and interfaces.
 
 Document Convention
 -------------------
-TODO: Put terms that readers may not understand
+This document has been constructed in acccordance with the IEEE Std 830-1998. Please note: The functional requirements outlined below inheret the priority of the feature which they describe.
 
 Intended Audience and Reading Suggestions
 -----------------------------------------
@@ -62,14 +62,14 @@ The target audience of this software requirements specification is for those who
  * Users
  * Testers
  
-The software requirements specification is formatted based on the IEEE Std 830-1998 where the readers can nagivate the document using the table of contents.
+It is essential to read this document in its entirety to fully understand the requireqements for DuoMonkeyEditor. Please use the above table of contents to access various parts of this software requirements specification document.
 
 Product Scope
 -------------
-DuoMonkeyEditor is a web application that aims to enable programmers working in pairs to communication and work together, where physical distance is not a factor. Users using the application will be able to communicate with their partners using the integrated chat system that is placed with the real-time data synchronizing text editor. The product will involve the following:
- * A Firebase server that is hosted by Google, which will provide a way for host the web application without having to worry about the back-end development of the application. The server will also provide a way to authenticate users and real-time data synchronization
+DuoMonkeyEditor is a web application that aims to enable programmers working in pairs to communicate and work together, where physical distance is not a factor. Users using the application will be able to communicate with their partners using the integrated chat system that is placed with the real-time data synchronizing text editor. The product will involve the following:
+ * A Firebase server that is hosted by Google, which will provide a way to host the web application without having to worry about the back-end development of the application. The server will also provide a way to authenticate users and real-time data synchronization
  * Web browsers, which is the only way of accessing the web application
- * The web application, which is the core of the product that will provide the main features of the product
+ * The web application, which is the core of the product that will provide the main features
  
 References
 ----------
@@ -84,7 +84,7 @@ This section gives the entire overview of the system that the DuoMonkeyEditor is
 
 Product Perspective
 -------------------
-The DuoMonkeyEditor is designed to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
+The DuoMonkeyEditor is designed to be a enhancement, or replacement, to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
     [user] ---(interacts)---> [webpage] ---(passes user input)---> [server]
 

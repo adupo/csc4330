@@ -144,7 +144,7 @@ Response Sequence:
     user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
     
 Function Requirements:  
- * Login Button: Used to initiate login feature, will present the user with the Email and Password Input Field
+ * Login Button: Used to initiate login feature, will present the user with the Email and Password input field
  * Email Input Field: Will take in user's Google email account
  * Password Input Field: Will take in the user's Google password
  * The login feature wil not allow more than 100 simultaneous users
@@ -166,7 +166,7 @@ Function Requirements:
  * The maximum number of users allowed in the chat room is two (for pair programming)
  * There will be a limit of 20,000 characters in each message
  * Users will only be able to be active in one chat room at a time
- * An error will display if the message is not dilevered to the other party
+ * An error will display if the message is not delivered to the other party
  * The chat feature will not consume more than 25% of the width of the graphical user interface
 
 Text Editor

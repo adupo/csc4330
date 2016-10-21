@@ -91,8 +91,8 @@ The DuoMonkeyEditor is designed to be a enhancement, or replacement, to current 
 Product Functions
 -----------------
 The DuoMonkeyEditor will have the following major functions:
- * login: the main way of authenticating users, and allowing access to other major functions
- * create: 
+ * login to the system
+ * Create edit 
  Insert "top level data flow diagram or object class diagram here"
  
 User Classes and Characteristics

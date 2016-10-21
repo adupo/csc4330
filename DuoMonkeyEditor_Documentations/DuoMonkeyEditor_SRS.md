@@ -92,23 +92,32 @@ Product Functions
 -----------------
 The DuoMonkeyEditor will have the following major functions:
  * login to the system
- * Create edit 
+ * Create an edit session
+ * Join an edit session
+ * Edit files
+ * Download files
+ 
  Insert "top level data flow diagram or object class diagram here"
  
 User Classes and Characteristics
 --------------------------------
+WILSON.. what do go here boi?
 
 Operating Environment
 ---------------------
+The application will be hosted by the firebase server and this will serve as the operating environment for DuoMonkeyEditor.
 
 Design and Implementation Constraints
 -------------------------------------
+While designing the DuoMonkeyEditor web base application, developers will be limited by the capabilities of the Google services being used (firebase, firechat, firepad). While we will expand on this open source supporting software, some limitations may hinder the fullfilment of requirements in the final product. Anthoner very likely constraint will be the mandatory deadline set by the instructore of this course.
 
 User Documentation
 ------------------
+Alongside the delivery of this product will be a general user manual that describes how to best use the application.
 
 Assumptions and Dependencies
 ----------------------------
+Some assumed factors that may affect the requireemntes stated in this SRS include the Google open source software that we hope to take advantage of. If this software needs to be heavily rewritten/modified, this may not allow the product to be delivered on time or to its full potential.
 
 External Interface Requirements
 ===============================

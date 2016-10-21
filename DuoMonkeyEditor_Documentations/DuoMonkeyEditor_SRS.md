@@ -166,15 +166,15 @@ Function Requirements:
  * Join Room button: To join a chat room (user must also input the correct password)
  * The maximum number of users allowed in the chat room is two (for pair programming)
  
- Other Nonfunctional Requirements
- ================================
+Other Nonfunctional Requirements
+================================
  
- Security Requirements
- ---------------------
- The users' Google account privacy and security are taken care by the fire base (Wilson said)...
+Security Requirements
+---------------------
+The users' Google account privacy and security are taken care by the fire base (Wilson said)...
  
- Software Quality Attributes
- ---------------------------
- The DuoMonkeyEditor is made based off of intuitive ease of use for users. 
+Software Quality Attributes
+---------------------------
+The DuoMonkeyEditor is made based off of intuitive ease of use for users. 
 
  

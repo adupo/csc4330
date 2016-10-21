@@ -116,7 +116,7 @@ TODO: Put stuff here
 
 User Interfaces
 ---------------
-Users will click on "Login with Google" on the front page.....(More to come...)
+Users will click on "Login with Google" on the front page. After loging in, there are two buttons that have either "Join" or "Create" to allow a user to create a chat room or join in an existing chat room. Minimizing and maximizing the web browser window will also minimize DuoMonkeyEditor, while closing the web browser would also close DuoMonkeyEditor. 
 
 Hardware Interfaces
 -------------------
@@ -165,3 +165,8 @@ Function Requirements:
  * Create Room button: To instantiate a chat room (also ask for a password for the room)
  * Join Room button: To join a chat room (user must also input the correct password)
  * The maximum number of users allowed in the chat room is two (for pair programming)
+ 
+ Other Nonfunctional Requirements
+ ================================
+ 
+ 

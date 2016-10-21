@@ -165,7 +165,7 @@ Function Requirements:
  * Join Room Button: To join a chat room, user must also input the correct password
  * The maximum number of users allowed in the chat room is two (for pair programming)
  * There will be a limit of 20,000 characters in each message
- * Users will only be able to join one chat room
+ * Users will only be able to be active in one chat room at a time
  * An error will display if the message is not dilevered to the other party
  * The chat feature will not consume more than 25% of the width of the graphical user interface
 

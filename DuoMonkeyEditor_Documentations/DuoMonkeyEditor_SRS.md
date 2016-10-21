@@ -1,6 +1,6 @@
 Software Requirements Specification for DuoMonkeyEditor (version 1.0 approved)
 ==============================================================================
-Created by Aaron Dupont, Wilson Zhu, Jason Lee, Blake Allen, Kevin Elizabeth
+Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
 Table of Contents
 =================
@@ -8,32 +8,31 @@ Table of Contents
 * Revision History  
 * Introduction  
   * Purpose  
-  * Document Conventions  
-  * Intended Audience and Reading Suggestions  
-  * Product Scope  
-  * References  
-* Overall Description
-  * Product Perspective
-  * Product Functions
-  * User Classes and Characteristics
-  * Operating Environment
-  * Design and Implementation Constraints
-  * User Documentation
-  * Assumptions and Dependencies
-* External Interface Requirements
-  * User Interfaces  
-  * Hardware Interfaces  
-  * Software Interfaces  
-  * Communications Interfaces  
-* System Features
-  * User Login
-  * System Feature 2 (and so on)  
-* Nonfunctional Requirements
-  * Performance Requirements  
-  * Safety Requirements  
-  * Security Requirements  
-  * Software Quality Attributes  
-* Appendix
+  *	Intended Audience and Reading Suggestions  
+  *	Product Scope  
+  *	References  
+*	Overall Description
+  *	Product Perspective
+  *	Product Functions
+  *	User Classes and Characteristics
+  *	Operating Environment
+  *	Design and Implementation Constraints
+  *	User Documentation
+  *	Assumptions and Dependencies
+*	External Interface Requirements
+  *	User Interfaces  
+  *	Hardware Interfaces  
+  *	Software Interfaces  
+  *	Communications Interfaces  
+*	System Features
+  *	User Login
+  *	Chat
+  * Text Editor
+*	Other Nonfunctional Requirements
+  *	Performance Requirements  
+  *	Security Requirements  
+  *	Software Quality Attributes  
+*	Other Requirements
   * Appendix A: Glossary  
   * Appendix B: Analysis Models  
   * Appendix C: To Be Determined List  
@@ -48,11 +47,7 @@ This section gives a brief overview of everything about the DuoMonkeyEditor web 
 
 Purpose
 -------
-The purpose of this document is to give a detailed description of all the requirements for the DuoMonkeyEditor web application. The document also describes many other aspects of the application such as the design constraints and interfaces.
-
-Document Convention
--------------------
-This document has been constructed in acccordance with the IEEE Std 830-1998. Please note: The functional requirements outlined below inheret the priority of the feature which they describe.
+The purpose of this document is to give a detailed description of all the requirements for the DuoMonkeyEditor web application. The document also describes may other aspects of the application such as the design constraints and interfaces.
 
 Intended Audience and Reading Suggestions
 -----------------------------------------
@@ -61,103 +56,98 @@ The target audience of this software requirements specification is for those who
  * Users
  * Testers
  
-It is essential to read this document in its entirety to fully understand the requireqements for DuoMonkeyEditor. Please use the above table of contents to access various parts of this software requirements specification document.
+The software requirements specification is formatted based on the IEEE Std 830-1998 where the readers can nagivate the document using the table of contents.
 
 Product Scope
 -------------
-DuoMonkeyEditor is a web application that aims to enable programmers working in pairs to communicate and work together, where physical distance is not a factor. Users using the application will be able to communicate with their partners using the integrated chat system that is placed with the real-time data synchronizing text editor. The product will involve the following:
- * A Firebase server that is hosted by Google, which will provide a way to host the web application without having to worry about the back-end development of the application. The server will also provide a way to authenticate users and real-time data synchronization
+DuoMonkeyEditor is a web application that aims to enable programmers working in pairs to communication and work together, where physical distance is not a factor. Users using the application will be able to communicate with their partners using the integrated chat system that is placed with the real-time data synchronizing text editor. The product will involve the following:
+ * A Firebase server that is hosted by Google, which will provide a way for host the web application without having to worry about the back-end development of the application. The server will also provide a way to authenticate users and real-time data synchronization
  * Web browsers, which is the only way of accessing the web application
- * The web application, which is the core of the product that will provide the main features
+ * The web application, which is the core of the product that will provide the main features of the product
  
 References
 ----------
-** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **  
+** NOTE: The web application will be derived from Firechat and Firepad (with modified functionalities) **
 [Firebase Reference](https://firebase.google.com/docs/reference/js/)  
 [Firechat Reference](https://firechat.firebaseapp.com/docs/)  
 [Firepad Reference](https://firepad.firebaseapp.com/docs/)  
 
 Overall Description
 ===================
-This section gives the entire overview of the system that the DuoMonkeyEditor is composed of as well as the interactions with other applications or systems.
+This section give the entire overview of the system that the DuoMonkeyEditor is composed of as well as the interactions with other applications or systems.
 
 Product Perspective
 -------------------
-The DuoMonkeyEditor is designed to be a enhancement, or replacement, to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
+The DuoMonkeyEditor is aim to be a workaround or replacement to current text editors. The web application is composed of two components: the webpage and the server. The webpage (front-end) will serve the main way for pair programmers to use the application, any interactions with the webpage is handled by the server (back-end).
 
-    [user] ---(interacts)---> [webpage] ---(passes user input)---> [server]
+                          [user] ----(interacts)----> [webpage] ----(passes user input)----> [server]
 
 Product Functions
 -----------------
 The DuoMonkeyEditor will have the following major functions:
- * login to the system
- * Create an edit session
- * Join an edit session
- * Edit files
- * Download files
- 
- Insert "top level data flow diagram or object class diagram here"
- 
+ * login: logs the user into the web application (DuoMonkeyEditor)
+ * create room: creates the chat room and the text editor (there will also be a password associated with it)
+ * join room: joins an existing chat room and text editor
+ * message: creates and send messages in the chat system
+ * edit: editing contents on the text editor
+
 User Classes and Characteristics
 --------------------------------
-WILSON.. what do go here boi?
+The DuoMonkeyEditor is a web application for programmers doing pair programming. The desired users for this application are programmers who understanding how to use a basic chat system.
 
 Operating Environment
 ---------------------
-The application will be hosted by the firebase server and this will serve as the operating environment for DuoMonkeyEditor.
+The DuoMonkeyEditor will operate on major web browsers (ie: Chrome, Firefox, Internet Explorer, etc.) on PCs and Macs. The software is not intended for mobile devices (smartphones).
 
-Design and Implementation Constraints
--------------------------------------
-While designing the DuoMonkeyEditor web base application, developers will be limited by the capabilities of the Google services being used (firebase, firechat, firepad). While we will expand on this open source supporting software, some limitations may hinder the fullfilment of requirements in the final product. Anthoner very likely constraint will be the mandatory deadline set by the instructore of this course.
+Design and Implementation Contraints
+------------------------------------
+The web application is only intended for web browsers on PCs, Macs, and Linux. Although the application may work on the mobile platform, it is not the intended environment for the application.
 
 User Documentation
 ------------------
-Alongside the delivery of this product will be a general user manual that describes how to best use the application.
+In order for users to fully utilize the DuoMonkeyEditor application, users must have an existing Google account. Once logged in, the user would have two options: create a session or join a session. By either creating or joining a session, users are able to connect with their partners and communicate with each other using the chat system and working on their programming task using the text editor.
 
 Assumptions and Dependencies
 ----------------------------
-Some assumed factors that may affect the requireemntes stated in this SRS include the Google open source software that we hope to take advantage of. If this software needs to be heavily rewritten/modified, this may not allow the product to be delivered on time or to its full potential.
+It is assumed that the users has internet connection and a Google account. Users should be able to nagivate the webpage with no problem and use a basic text editor and chat system.
 
 External Interface Requirements
 ===============================
-TODO: Put stuff here
+This section states the required characteristics at a point/region of connection of the system to the outside world.
 
 User Interfaces
 ---------------
-Users will click on "Login with Google" on the front page. After loging in, there are two buttons that have either "Join" or "Create" to allow a user to create a chat room or join in an existing chat room. Minimizing and maximizing the web browser window will also minimize DuoMonkeyEditor, while closing the web browser would also close DuoMonkeyEditor. 
+Upon logging into the application, users will face a lobby that will give them two options; creating a session or joining an existing session in the form of buttons. Upon entering a session, the user will be faced with a text editor to the left-side of the user's screen and the chat system to the right-side of the screen.
 
 Hardware Interfaces
 -------------------
-An electronic device that has access to Internet, has virtual or physical keyboard for typing, and a display screen. 
+The DuoMonkeyEditor application is supported on only Macs and PCs with web browsers (ie: Chrome, Firefox, Internet Explorer, etc.). Users will input their information using their comptuters and the server will process the inputted information.
 
 Software Interfaces
 -------------------
-DuoMonkeyEditor can be accessed by any devices that can run the latest version web browser applications including 
+The DuoMonkeyEditor application will utilize the Firebase server as well as their APIs, and work with Windows, Mac, and Linux environments.
 
-	Chrome(54.0.2840.59), Microsoft Edge(38.14393.0.0) , Mozilla Firefox(49.0.1), or Safari(10.0). 
-
-Devices that access DuoMonkeyEditor includes any desktop/laptop computer or smaller devices including tablets and mobile devices that runs on Mac OS, iOS, Windows, or Android operating systems up to the latest version.
-
-Communications Interfaces
--------------------------
-A working Gmail account will be needed to access DuoMonkeyEditor, and the latest available web browser application as well. All users of DuoMonkeyEditor must also have access to Internet, either Wi-Fi or ethernet.
+Communication Interfaces
+------------------------
+The DuoMonkeyEditor will rquire the users to login with their Google account and the communication standards the application uses will be HTTP. All security, data, and synchronization mechanisms will be handled by the Firebase server.
 
 System Features
 ===============
+This section will describe all the features that the DuoMonkeyEditor will have.
 
-User Login
-----------
+Login
+-----
 Authenticates users using their Google account, and allow user access to other features  
 Priority: Very high  
 Response Sequence:  
 
-    user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server ---(adds user)
+    user ---(clicks 'login')---> webpage ---(request user info)---> user ---(inputs info)---> webpage ---(passes user info)---> server
     
 Function Requirements:  
- * Login button: To initiate login action
+ * Login button: Used to initiate login action
  * Email input field: Will take in Google email account
  * Password input field: Will take in the user's Google password
- * Authenication: Checks user's inputted Google account and password; will throw error if fields are incorrect/empty
+ * Authenication: Will check user's inputted Google account and password; will throw an error if incorrect/empty
  
 Chat
 ----
@@ -173,16 +163,43 @@ Function Requirements:
  * Create Room button: To instantiate a chat room (also ask for a password for the room)
  * Join Room button: To join a chat room (user must also input the correct password)
  * The maximum number of users allowed in the chat room is two (for pair programming)
- 
+
+Text Editor
+-----------
+The text editor that will be used by the users for pair programming, synchronized between the users by the server
+Priority: Low
+Response Sequence:  
+** NOTE: The text editor will be instantiate when the user creates a chat room **
+
+    server ---(instantiate chat room and text editor)---> webpage ---(displays)---> user
+    
 Other Nonfunctional Requirements
 ================================
- 
+This section describes the characteristics of the DuoMonkeyEditor.
+
+Performance Requirements
+------------------------
+The application should not lag.
+
 Security Requirements
 ---------------------
-The users' Google account privacy and security are taken care by the fire base (Wilson said)...
+The users' Google account privacy and security are taken care by the Firebase server (Google itself)
  
 Software Quality Attributes
 ---------------------------
-The DuoMonkeyEditor is made based off of intuitive ease of use for users. 
+The DuoMonkeyEditor is made based off of intuitive ease of use for users.
 
- 
+Appendix
+========
+Additional information
+
+Appendix A: Glossary
+--------------------
+
+
+Appendix B: Analysis Models
+---------------------------
+
+
+Appendix C: To Be Determined List
+---------------------------------

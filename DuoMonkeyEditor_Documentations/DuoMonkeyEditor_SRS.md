@@ -169,4 +169,12 @@ Function Requirements:
  Other Nonfunctional Requirements
  ================================
  
+ Security Requirements
+ ---------------------
+ The users' Google account privacy and security are taken care by the fire base (Wilson said)...
+ 
+ Software Quality Attributes
+ ---------------------------
+ The DuoMonkeyEditor is made based off of intuitive ease of use for users. 
+
  

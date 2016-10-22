@@ -67,7 +67,7 @@ DuoMonkeyEditor is a web application that aims to enable programmers working in 
  
 References
 ----------
-Please see the below references for the open source Google services that will be used in the final product.
+Please see the below references for the open source Google services that will be used in the final product.  
 [Firebase Reference](https://firebase.google.com/docs/reference/js/)  
 [Firechat Reference](https://firechat.firebaseapp.com/docs/)  
 [Firepad Reference](https://firepad.firebaseapp.com/docs/)  

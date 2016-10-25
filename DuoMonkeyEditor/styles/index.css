@@ -1,0 +1,16 @@
+body {
+  font-family: Open Sans, Arial, Helvetica Neue, sans-serif;
+  width: 31%;
+  margin: auto;
+  text-align: center;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}

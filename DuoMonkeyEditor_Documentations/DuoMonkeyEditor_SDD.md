@@ -13,27 +13,30 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 8. [Work-Assignment View] (#WorkAssignmentView)
 9. [Element Catalog] (#ElementCatalog)
 10. [User Interfaces] (#UserInterfaces)
+.
+.
+.
+.
+.
+.
+.
+.
 
+..
+..
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.
+.
+.
+.
+..
+.
+.
+.
+.
+.
+.
+.
 
 # Introduction
 # Main System Architecture

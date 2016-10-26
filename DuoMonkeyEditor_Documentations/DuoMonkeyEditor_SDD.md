@@ -14,15 +14,15 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 9. [Element Catalog] (#ElementCatalog)
 10. [User Interfaces] (#UserInterfaces)
 
-### Introduction
-### Main System Architecture
-### Sub-System Architecture
-### Rational For Each Architectural Choice
-### Development View
-### Physical View
-### Database View
-### Work-Assignment View
-### Element Catalog
-### User Interfaces
+# Introduction
+# Main System Architecture
+# Sub-System Architecture
+# Rational For Each Architectural Choice
+# Development View
+# Physical View
+# Database View
+# Work-Assignment View
+# Element Catalog
+# User Interfaces
 
 this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM

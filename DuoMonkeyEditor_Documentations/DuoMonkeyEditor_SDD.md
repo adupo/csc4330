@@ -15,11 +15,9 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 10. [User Interfaces] (#UserInterfaces)
 
 ###Revision History
-| Name        | Date          | Reason For Changes  | Version |
-| ----------- |:-------------:  | ------------------| |-------|
-| Aaron Dupont| 10/26/16 | Creation |1.0 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Name        | Date      | Reason For Changes | Version |
+| ----------- |:---------:| ------------------ | ------- |
+| Aaron Dupont| 10/26/16  | Creation           |1.0      |
 
 # Introduction
 1.1 Purpose

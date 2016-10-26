@@ -31,7 +31,7 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
   
 ##1.4 Overview
   Readers can use either control-f or the table of contents to navigate this document. Additionally, please see the following descriptions of each section in the Software Design Document.
-1. Introduction: 
+1. Introduction:  
 2. Main System Architecture (Logical View)
 3. Sub-Systems Architecture
 4. Rational For Each Architectural Choice

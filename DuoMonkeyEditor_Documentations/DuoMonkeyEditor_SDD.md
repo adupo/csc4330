@@ -13,32 +13,20 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 8. [Work-Assignment View] (#WorkAssignmentView)
 9. [Element Catalog] (#ElementCatalog)
 10. [User Interfaces] (#UserInterfaces)
-.
-.
-.
-.
-.
-.
-.
-.
 
-..
-..
-
-.
-.
-.
-.
-..
-.
-.
-.
-.
-.
-.
-.
+###Revision History
+| Name        | Date          | Reason For Changes  | Version |
+| ----------- |:-------------:  | ------------------| |-------|
+| Aaron Dupont| 10/26/16 | Creation |1.0 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 # Introduction
+1.1 Purpose
+1.2 Intended Audience
+1.3 Scope
+1.4 Design Summary
+
 # Main System Architecture
 # Sub-System Architecture
 # Rational For Each Architectural Choice

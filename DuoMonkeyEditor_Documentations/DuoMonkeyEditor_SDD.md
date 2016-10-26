@@ -1,11 +1,8 @@
-this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM
-
-#Duo Monkey Editor
-##Software Design Document
-##CSC 4330
+#Software Design Document for DuoMonkeyEditor (version 1.0 approved)
+Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
 
-# Table of Contents
+## Table of Contents
 1. [Introduction](#Introduction)
 2. [Main System Architecture (Logical View)](#MainArchitecture)
 3. [Sub-Systems Architecture](#SubArchitecture)
@@ -17,6 +14,15 @@ this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM
 9. [Element Catalog] (#ElementCatalog)
 10. [User Interfaces] (#UserInterfaces)
 
-## Example
-## Example2
-## Third Example
+### Introduction
+### Main System Architecture
+### Sub-System Architecture
+### Rational For Each Architectural Choice
+### Development View
+### Physical View
+### Database View
+### Work-Assignment View
+### Element Catalog
+### User Interfaces
+
+this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM

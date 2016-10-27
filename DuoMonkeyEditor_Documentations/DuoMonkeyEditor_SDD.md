@@ -53,6 +53,7 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 # Rational For Each Architectural Choice
 # Development View
 # Physical View
+![Test](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/images%20for%20SDD/TEst.jpg)
 # Database View
 # Work-Assignment View
 # Element Catalog

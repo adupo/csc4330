@@ -21,7 +21,7 @@ Work to be Done
 ---------------
 * Work on the application
  * As of right now, the application is composed of two major sections as well as two dependencies that we do not have to worry about.
-   * The two components are the chat itself, which contains the functionality of the chat system and the chatUI that binds the chat function to the UI. The way it is currently working is as follows:
+  * The two components are the chat itself, which contains the functionality of the chat system and the chatUI that binds the chat function to the UI. The way it is currently working is as follows:
    * User clicks the login button which calls the login function that is defined in the index.html (user inputs their info)
    * Then the authStateChanged function will execute when it detects that the user has sucessfully logged in, which then calls the initApp function
    * The initApp function will then retrieve all the necessary parameters (eg. Database reference) for calling the chatUI, which in turns calls the chat itself (that is defined in the js file itself)

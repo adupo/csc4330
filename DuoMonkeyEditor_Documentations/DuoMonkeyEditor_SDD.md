@@ -22,7 +22,7 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
 # Introduction
 ##1.1 Purpose
-  The purpose of this Software Design Document is 
+  The purpose of this Software Design Document is to describe the implementation of the DuoMonkeyEditor and its overall structure as described in the specification document. 
   
 ##1.2 Intended Audience
   The need for a text editor like DuoMonkeyEditor will solve major problems that pair programmers face. DuoMonkeyEditor was created to target the vast market of any software developers who practices pair programming. This application could be used in the industry, however, our initial implementation will specifically target students to eleminate the problems that arrise when writing code with another student.

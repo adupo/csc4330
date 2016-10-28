@@ -18,6 +18,7 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 | Name        | Date      | Reason For Changes | Version |
 | ----------- |:---------:| ------------------ | ------- |
 | Aaron Dupont| 10/26/16  | Creation           |1.0      |
+| Wilson Zhu  | 10/28/16  | Intro              |1.1      |
 
 # Introduction
 ##1.1 Purpose

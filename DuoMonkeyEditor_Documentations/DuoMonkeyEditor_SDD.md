@@ -70,20 +70,30 @@ The DuoMonkeyEditor is composed of 3 major layers. The first layer is the websit
 
 Application Use Case
 --------------------
-          User                    DuoMonkeyEditor application
-          /  \ /| |'-.         +------------------------------+
-         .\__/ || |   |        |                              |
-      _ /  `._ \|_|_.-'        |                              |
-     | /  \__.`=._) (_         |                              |
-     |/ ._/  |"""""""""|       |                              |
-     |'.  `\ |         |       |                              |
-     ;"""/ / |         |       |                              |
-      ) /_/| |.-------.|       |                              |
-     '  `-`' "         "       +------------------------------+
-# 3 Sub-System Architecture
-## 3.1 First Subsystem Goes Here
-## 3.3 Second Subsystem Goes Here etc
-# Rational For Each Architectural Choice
+          User                        DuoMonkeyEditor application
+          /  \ /| |'-.         +---------------------------------------+
+         .\__/ || |   |   -----|-------------------Login               |
+      _ /  `._ \|_|_.-'   -----|----Create Session---------+<includes> |
+     | /  \__.`=._) (_    -----|----Join Session-----------|<includes> |
+     |/ ._/  |"""""""""|       |                    Inquire Password   |
+     |'.  `\ |         |       |               <includes>              |
+     ;"""/ / |         |  -----|-------Message--------\                |
+      ) /_/| |.-------.|  -----|----Edit-------------Update            |
+     '  `-`' "         "       |           <includes>                  |
+                               +---------------------------------------+
+
+When using the DuoMonkeyEditor, the user can do 5 things with the application. In order to use the application, the user needs to log in using their Google account. Upon logging in the application, the user then has two options open, creating or joining a session. Whether the user chooses to create a new session or join an existing session, they are required to input the password associated with the session. Once in, the user can either edit code on the text editor or message using the messaging system, which is continuously updated with the database.
+
+Sub-Systems Architecture
+========================
+Text Editor
+-----------
+
+Messaging System
+----------------
+
+Rational For Each Architectural Choice
+======================================
 # Development View
 # Physical View
 ![Test](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/images%20for%20SDD/TEst.jpg)

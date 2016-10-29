@@ -70,8 +70,16 @@ The DuoMonkeyEditor is composed of 3 major layers. The first layer is the websit
 
 Application Use Case
 --------------------
-    +---DuoMonkeyEditor application---+
-    |                                 |
+          User                    DuoMonkeyEditor application
+          /  \ /| |'-.         +------------------------------+
+         .\__/ || |   |        |                              |
+      _ /  `._ \|_|_.-'        |                              |
+     | /  \__.`=._) (_         |                              |
+     |/ ._/  |"""""""""|       |                              |
+     |'.  `\ |         |       |                              |
+     ;"""/ / |         |       |                              |
+      ) /_/| |.-------.|       |                              |
+     '  `-`' "         "       +------------------------------+
 # 3 Sub-System Architecture
 ## 3.1 First Subsystem Goes Here
 ## 3.3 Second Subsystem Goes Here etc

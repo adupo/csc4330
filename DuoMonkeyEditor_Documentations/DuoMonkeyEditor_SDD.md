@@ -1,53 +1,77 @@
-#Software Design Document for DuoMonkeyEditor (version 1.0 approved)
+Software Design Document for DuoMonkeyEditor (version 1.0 approved)
+===================================================================
 Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
+Table of Contents
+=================
+**NOTE: Use Ctrl-F to nagivate the document**
+* Introduction
+* Main System Architecture
+* Sub-Systems Architecture
+* Rational Architectural Choices
+* Development View
+* Physical View
+* Database View
+* Work-Assignment View
+* Element Catalog
+* User Interfaces
 
-## Table of Contents
-1. [Introduction](#Introduction)
-2. [Main System Architecture (Logical View)](#MainArchitecture)
-3. [Sub-Systems Architecture](#SubArchitecture)
-4. [Rational For Each Architectural Choice] (#Rational)
-5. [Development View] (#DevelopmetView)
-6. [Physical View] (#PhysicalView)
-7. [Database View] (#DatabaseView)
-8. [Work-Assignment View] (#WorkAssignmentView)
-9. [Element Catalog] (#ElementCatalog)
-10. [User Interfaces] (#UserInterfaces)
-
-###Revision History
+Revision History
+================
 | Name        | Date      | Reason For Changes | Version |
 | ----------- |:---------:| ------------------ | ------- |
 | Aaron Dupont| 10/26/16  | Creation           |1.0      |
 | Wilson Zhu  | 10/28/16  | Intro              |1.1      |
 
-# Introduction
-##1.1 Purpose
-  The purpose of this Software Design Document is to describe the implementation of the DuoMonkeyEditor and its overall structure as described in the specification document. 
+Introduction
+============
+Purpose
+-------
+The purpose of this Software Design Document (SDD) is to describe how the DuoMonkeyEditor will be designed and implemented. The document should provide enough information to aid in the development process of the web application.
   
-##1.2 Intended Audience
-  The need for a text editor like DuoMonkeyEditor will solve major problems that pair programmers face. DuoMonkeyEditor was created to target the vast market of any software developers who practices pair programming. This application could be used in the industry, however, our initial implementation will specifically target students to eleminate the problems that arrise when writing code with another student.
+Intended Audience
+-----------------
+The DuoMonkeyEditor is a real-time collaborative editor that is intended for software developers that are performing pair programming. Although this concept of a real-time collaborative editor is not new, the DuoMonkeyEditor aims to be simple and easy to use, requiring only the user's existing Google account.
+
+Scope
+-----
+The web application contains two major components that it will function with, the text editor and the messaging system. The user's interaction with the two components will be synced to the database, providing the real-time display of information between the users. This document will cover the architectural structure of each component as well as the overall structure of the application itself.
   
-##1.3 Scope
-  Explain the overview of the system and what this document explains
-  
-##1.4 Overview
-  Readers can use either control-f or the table of contents to navigate this document. Additionally, please see the following descriptions of each section in the Software Design Document.  
-1. Introduction:  Brief introduction to the project and the contents of this document.  
-2. Main System Architecture (Logical View): Provides a description and graphical representation of the Main System and its relation to the application.  
-3. Sub-Systems Architecture: Provides a description and graphical representation of each sub-system for DuoMonkeyEditor.  
-4. Rational For Each Architectural Choice: Gives a deeper look into the decision making process of the design of each sub-system.  
-5. Development View: Provides the layout and organization of DuoMonkeyEditor.  
-6. Physical View: 
-7. Database View: Discusses data models and database(s) that are used in DuoMonkeyEditor.  
-8. Work-Assignment View: Provides a description of tasks and which developer has been assigned to complete it.  
-9. Element Catalog: Lists all symbols and definitions, used in this document, for reader clarity.  
-10. User Interfaces: Provides a description and visual aid of the graphical user interface (GUI) for DuoMonkeyEditor.  
+Overview
+--------
+The document will cover the following areas:
+  * Main System Architecture (Logical View): Provides a description and graphical representation of the Main System and its relation to the application
+  * Sub-Systems Architecture: Provides a description and graphical representation of each sub-system for DuoMonkeyEditor
+  * Rational For Each Architectural Choice: Gives a deeper look into the decision making process of the design of each sub-system
+  * Development View: Provides the layout and organization of DuoMonkeyEditor
+  * Physical View: Provides the physical layout of the DuoMonkeyEditor
+  * Database View: Discusses data models and database(s) that are used in DuoMonkeyEditor
+  * Work-Assignment View: Provides a description of tasks and which developer has been assigned to complete it
+  * Element Catalog: Lists all symbols and definitions, used in this document, for reader's clarity
+  * User Interfaces: Provides a description and visual aid of the graphical user interface (GUI) for DuoMonkeyEditor
   
 
-# 2 Main System Architecture
-##2.1 General System Overview
-##2.2 Application Use Case
+Main System Architecture
+========================
+General System Overview
+-----------------------
+    The DuoMonkeyEditor Architectural Diagram:
+    +----------------------------------------+
+    |           Front-end (Website)          |
+    +----------------------------------------+
+    +-----------------+   +------------------+
+    |   Text Editor   |   | Messaging System |
+    +-----------------+   +------------------+
+    +----------------------------------------+
+    |            Back-end (Server)           |
+    +----------------------------------------+
 
+The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that will users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate will in order to sync the data across the instances of the application (only between communicating users).
+
+Application Use Case
+--------------------
+    +---DuoMonkeyEditor application---+
+    |                                 |
 # 3 Sub-System Architecture
 ## 3.1 First Subsystem Goes Here
 ## 3.3 Second Subsystem Goes Here etc

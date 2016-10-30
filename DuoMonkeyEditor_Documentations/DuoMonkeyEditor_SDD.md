@@ -22,7 +22,12 @@ Revision History
 | ----------- |:---------:| ------------------ | ------- |
 | Aaron Dupont| 10/26/16  | Creation, Intro    |1.0      |
 | Wilson Zhu  | 10/28/16  | Intro              |1.1      |
+<<<<<<< HEAD
+| Jason Lee   | 10/30/16  | Physical View      |1.1      |
+
+=======
 | Aaron Dupont| 10/30/16  | 
+>>>>>>> master
 Introduction
 ============
 Purpose
@@ -66,7 +71,11 @@ General System Overview
     |            Back-end (Server)           |
     +----------------------------------------+
 
+<<<<<<< HEAD
+The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
+=======
 The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate will in order to sync the data across the instances of the application (only between communicating users).
+>>>>>>> master
 
 Application Use Case
 --------------------
@@ -103,7 +112,7 @@ Messaging System
 
 # Development View
 # Physical View
-![Test](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/images%20for%20SDD/TEst.jpg)
+![Test](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/images%20for%20SDD/PhysicalView.jpg)
 # Database View
 
 Work-Assignment View

@@ -105,6 +105,8 @@ Messaging System
 
 # Development View
 # Physical View
+A user uses the web application DuoMonkeyEditor, the web application sends input to web server which thens forwards the messages to the user's partner. The user's partner using DuoMonkeyEditor sees the output of what the user typed and sends any edits to the web application and throught the server be forwarded to the user. 
+
 ![PhysicalView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/PhysicalView.PNG)
 # Database View
 

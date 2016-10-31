@@ -126,6 +126,13 @@ It is in the best interest of the reader to illustrate the Work-Assignment View 
 ..*Wilson Zhu: Establishing connections between firebase and firepad/firechat, Creation of all subsystems
 
 # Element Catalog
+|Physical View                                  |
+|-----------------------------------------------|
+|Symbol              |Description               |
+|--------------------|--------------------------|
+|![TextEditor](link) |Represents DuoMonkeyEditor|
+|![Server](link)	 |FireBase server by Google |
+|![User](link)		 |User                      |
 # User Interfaces
 
 this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM

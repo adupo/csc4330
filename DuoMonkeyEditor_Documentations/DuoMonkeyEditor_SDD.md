@@ -25,9 +25,6 @@ Revision History
 <<<<<<< HEAD
 | Jason Lee   | 10/30/16  | Physical View      |1.1      |
 
-=======
-| Aaron Dupont| 10/30/16  | 
->>>>>>> master
 Introduction
 ============
 Purpose
@@ -117,7 +114,7 @@ Messaging System
 
 Work-Assignment View
 ====================
-It is in the best interest of the reader to illustrate the Work-Assignment View in desctribtive text rather than visual representaiton. While DuoMonkeyEditor will be developed equally by each team member, please see the following task list that lists each members main focus:
+It is in the best interest of the reader to illustrate the Work-Assignment View in descriptive text rather than visual representation. While DuoMonkeyEditor will be developed equally by each team member, please see the following task list that lists each members main focus:
 *Front End
 ..*Aaron Dupont: CSS and design, Documentation
 *Text Editor

@@ -127,11 +127,12 @@ It is in the best interest of the reader to illustrate the Work-Assignment View 
 
 # Element Catalog
 Physical View      
-|Symbol              |Description               |
-|--------------------|--------------------------|
-|![TextEditor](link) |Represents DuoMonkeyEditor|
-|![Server](link)	 |FireBase server by Google |
-|![User](link)		 |User                      |
+-------------
+|Symbol                                                                                                                   |Description               |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------|
+|![TextEditor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-textEditor.jpg)|Represents DuoMonkeyEditor|
+|![Server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-Server.jpg)	      |FireBase server by Google |
+|![User](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-User.jpeg)		      |User                      |
 # User Interfaces
 
 this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM

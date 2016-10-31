@@ -21,9 +21,8 @@ Revision History
 | Name        | Date      | Reason For Changes | Version |
 | ----------- |:---------:| ------------------ | ------- |
 | Aaron Dupont| 10/26/16  | Creation, Intro    |1.0      |
-| Wilson Zhu  | 10/28/16  | Intro              |1.1      |
-<<<<<<< HEAD
-| Jason Lee   | 10/30/16  | Physical View      |1.1      |
+| Wilson Zhu  | 10/28/16  | Intro              |1.0      |
+| Jason Lee   | 10/30/16  | Physical View      |1.0      |
 
 Introduction
 ============
@@ -94,11 +93,12 @@ Sub-Systems Architecture
 ========================
 Text Editor
 -----------
- input from website ----> Back end ----> display on database
+    input from website ----> Back end ----> display on database
 
 Messaging System
 ----------------
- input from website ----> back end ------> display on database
+    input from website ----> back end ------> display on database
+
 Rational For Each Architectural Choice
 ======================================
 Text Editor

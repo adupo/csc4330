@@ -99,12 +99,12 @@ Rational For Each Architectural Choice
 ======================================
 Text Editor
 -----------
-![Sub-system1]()
+![Sub-system1]()  
 The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions like every other editor, allowing the user to...
 
 Messaging System
 ----------------
-![Sub-system2]()
+![Sub-system2]()  
 
 Development View
 ================

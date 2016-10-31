@@ -122,8 +122,8 @@ It is in the best interest of the reader to illustrate the Work-Assignment View 
 ..*Wilson Zhu: Establishing connections between firebase and firepad/firechat, Creation of all subsystems
 
 # Element Catalog
-Physical View      
--------------
+Physical View Catalog  
+---------------------
 |Symbol                                                                                                                   |Description               |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------|
 |![TextEditor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-textEditor.jpg)|Represents DuoMonkeyEditor|

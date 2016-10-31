@@ -99,38 +99,47 @@ Rational For Each Architectural Choice
 ======================================
 Text Editor
 -----------
-The architecture of the text editor was decided upon the disovery of firepad. Since firepad is able to connect to our back-end environment, firebase, it is imperative that the architecture must be 
+![Sub-system1]()
+The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions like every other editor, allowing the user to...
+
 Messaging System
 ----------------
+![Sub-system2]()
 
-# Development View
-# Physical View
-A user uses the web application DuoMonkeyEditor, the web application sends input to web server which thens forwards the messages to the user's partner. The user's partner using DuoMonkeyEditor sees the output of what the user typed and sends any edits to the web application and throught the server be forwarded to the user. 
+Development View
+================
 
+Physical View
+=============
 ![PhysicalView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/PhysicalView.PNG)
-# Database View
+
+A user uses the web application DuoMonkeyEditor. The web application sends input to web server which then forwards the messages to the user's partner. The user's partner using DuoMonkeyEditor sees the output of what the user typed and sends any edits to the web application and throught the server to be updated.
+
+Database View
+=============
+![DatabaseView]()
 
 Work-Assignment View
 ====================
-It is in the best interest of the reader to illustrate the Work-Assignment View in descriptive text rather than visual representation. While DuoMonkeyEditor will be developed equally by each team member, please see the following task list that lists each members main focus:
-*Front End
-..*Aaron Dupont: CSS and design, Documentation
-*Text Editor
-..*Blake Allen: Main feature implementation
-..*Jason Lee: Feature enhancement (font variations, highlighting) 
-*Messaging System
-..*Kevin Elizabeth: Feature enhancement 
-*Back End
-..*Wilson Zhu: Establishing connections between firebase and firepad/firechat, Creation of all subsystems
+The following is the work assignment of the components of the DuoMonkeyEditor:
+* The website (front-end): Jason Lee, Kevin Elizabeth
+* The application:
+  * Text Editor: Wilson Zhu, Blake Allen
+    * UI: Blake Allen
+    * Text Editor Functions: Wilson Zhu
+  * Messaging System:
+    * UI: Aaron Dupont
+    * Chat Functions: Wilson Zhu
 
-# Element Catalog
+Element Catalog
+===============
 Physical View Catalog  
 ---------------------
 |Symbol                                                                                                                   |Description               |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------|
 |![TextEditor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-textEditor.jpg)|Represents DuoMonkeyEditor|
 |![Server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-Server.jpg)	      |FireBase server by Google |
-|![User](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-User.jpeg)		      |User                      |
-# User Interfaces
+|![User](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-User.jpeg)		        |User                      |
 
-this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM
+User Interfaces
+===============

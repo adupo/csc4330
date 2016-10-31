@@ -109,7 +109,7 @@ Messaging System
 
 # Development View
 # Physical View
-![Test](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/images%20for%20SDD/PhysicalView.jpg)
+![PhysicalView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/PhysicalView.PNG)
 # Database View
 
 Work-Assignment View
@@ -126,8 +126,7 @@ It is in the best interest of the reader to illustrate the Work-Assignment View 
 ..*Wilson Zhu: Establishing connections between firebase and firepad/firechat, Creation of all subsystems
 
 # Element Catalog
-|Physical View                                  |
-|-----------------------------------------------|
+Physical View      
 |Symbol              |Description               |
 |--------------------|--------------------------|
 |![TextEditor](link) |Represents DuoMonkeyEditor|

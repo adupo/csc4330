@@ -67,11 +67,7 @@ General System Overview
     |            Back-end (Server)           |
     +----------------------------------------+
 
-<<<<<<< HEAD
 The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
-=======
-The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate will in order to sync the data across the instances of the application (only between communicating users).
->>>>>>> master
 
 Application Use Case
 --------------------
@@ -127,11 +123,12 @@ It is in the best interest of the reader to illustrate the Work-Assignment View 
 
 # Element Catalog
 Physical View      
-|Symbol              |Description               |
-|--------------------|--------------------------|
-|![TextEditor](link) |Represents DuoMonkeyEditor|
-|![Server](link)	 |FireBase server by Google |
-|![User](link)		 |User                      |
+-------------
+|Symbol                                                                                                                   |Description               |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------|
+|![TextEditor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-textEditor.jpg)|Represents DuoMonkeyEditor|
+|![Server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-Server.jpg)	      |FireBase server by Google |
+|![User](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-User.jpeg)		      |User                      |
 # User Interfaces
 
 this is the sdd & it is due Wednesday, Nov. 2 at 11:55PM

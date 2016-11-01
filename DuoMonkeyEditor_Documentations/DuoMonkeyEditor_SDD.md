@@ -129,9 +129,9 @@ Physical View Catalog
 ---------------------
 |Symbol                                                                                                                   |Description               |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------|
-|![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|Represents DuoMonkeyEditor|
-|![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |FireBase server by Google |
-|![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |User                      |
+|![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|represents the DuoMonkeyEditor application|
+|![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |represents the Firebase server|
+|![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |represents the user|
 
 User Interfaces
 ===============

@@ -109,7 +109,7 @@ A user uses the web application DuoMonkeyEditor. The web application sends input
 
 Database View
 =============
-![DatabaseView]()
+![DatabaseView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
 
 Work-Assignment View
 ====================

@@ -71,7 +71,7 @@ The DuoMonkeyEditor is composed of 3 major layers. The first layer is the websit
 
 Application Use Case
 --------------------
-![ApplicationUseCase](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Application%20use%20case.png)
+![application use case](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application_use_case.png)
 
 When using the DuoMonkeyEditor, the user can do 5 things with the application. In order to use the application, the user needs to log in using their Google account. Upon logging in the application, the user then has two options, creating or joining a session. Whether the user chooses to create a new session or join an existing session, they are required to input the password associated with the session. Once in, the user can either edit code on the text editor or message using the messaging system, which is continuously updated with the database.
 
@@ -79,13 +79,13 @@ Sub-Systems Architecture
 ========================
 Text Editor
 -----------
-![Sub-system1](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Text%20Editor%20Diagram.png)
+![text editor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/text_editor.png)
 
 The architectural design of the text editor is like every other text editor. The user is able to input text into the text editor (the text area) as well as changing the font properties and the format of the text. The input text can be either over a selected area of text or based on the cursor position in the document. This system is heavily based on Firepad (by Firebase; Google).
 
 Messaging System
 ----------------
-![Sub-system2]()
+![chat](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/chat.png)
 
 The architectural design of the messaging system is simply a basic chat application that allows the user to communicate with other users. The user would input their message and the message is sent to the server to be added in the message board, which is to be displayed to the user. This system is heavily based on Firechat (by Firebase; Google).
 
@@ -103,7 +103,7 @@ Development View
 
 Physical View
 =============
-![PhysicalView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/PhysicalView.PNG)
+![physical view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/physical.PNG)
 
 A user uses the web application DuoMonkeyEditor. The web application sends input to web server which then forwards the messages to the user's partner. The user's partner using DuoMonkeyEditor sees the output of what the user typed and sends any edits to the web application and throught the server to be updated.
 
@@ -129,9 +129,9 @@ Physical View Catalog
 ---------------------
 |Symbol                                                                                                                   |Description               |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------|
-|![TextEditor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-textEditor.jpg)|Represents DuoMonkeyEditor|
-|![Server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-Server.jpg)	      |FireBase server by Google |
-|![User](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Optimized-User.jpeg)		        |User                      |
+|![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|Represents DuoMonkeyEditor|
+|![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |FireBase server by Google |
+|![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |User                      |
 
 User Interfaces
 ===============

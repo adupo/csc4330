@@ -135,6 +135,19 @@ Physical View Catalog
 
 User Interfaces
 ===============
+Below is the graphical user interface for DuoMonkeyEditor and a short description of how they map to the architecture.
+
+Front-End (Website)
+-------------------
 ![Website] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png)
+Website:
+*allows the user to log in with their Google account by clicking "Get Started"
+
+Text Editor
+-----------
+![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad.png)
+
+Messaging System
+----------------
 ![Chat] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png)
-![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/text_editor.png)
+

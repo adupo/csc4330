@@ -71,17 +71,7 @@ The DuoMonkeyEditor is composed of 3 major layers. The first layer is the websit
 
 Application Use Case
 --------------------
-          User                        DuoMonkeyEditor application
-          /  \ /| |'-.         +---------------------------------------+
-         .\__/ || |   |   -----|-------------------Login               |
-      _ /  `._ \|_|_.-'   -----|----Create Session---------+<includes> |
-     | /  \__.`=._) (_    -----|----Join Session-----------|<includes> |
-     |/ ._/  |"""""""""|       |                    Inquire Password   |
-     |'.  `\ |         |       |               <includes>              |
-     ;"""/ / |         |  -----|-------Message--------\                |
-      ) /_/| |.-------.|  -----|----Edit-------------Update            |
-     '  `-`' "         "       |           <includes>                  |
-                               +---------------------------------------+
+![ApplicationUseCase](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Application%20use%20case.png)
 
 When using the DuoMonkeyEditor, the user can do 5 things with the application. In order to use the application, the user needs to log in using their Google account. Upon logging in the application, the user then has two options, creating or joining a session. Whether the user chooses to create a new session or join an existing session, they are required to input the password associated with the session. Once in, the user can either edit code on the text editor or message using the messaging system, which is continuously updated with the database.
 

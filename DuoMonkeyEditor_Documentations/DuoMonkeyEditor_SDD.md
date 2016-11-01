@@ -18,11 +18,12 @@ Table of Contents
 
 Revision History
 ================
-| Name        | Date      | Reason For Changes | Version |
-| ----------- |:---------:| ------------------ | ------- |
-| Aaron Dupont| 10/26/16  | Creation, Intro    |1.0      |
-| Wilson Zhu  | 10/28/16  | Intro              |1.0      |
-| Jason Lee   | 10/30/16  | Physical View      |1.0      |
+| Name            | Date      | Reason For Changes | Version |
+| --------------- |:---------:| ------------------ | ------- |
+| Aaron Dupont    | 10/26/16  | Creation, Intro    |1.0      |
+| Wilson Zhu      | 10/28/16  | Intro              |1.0      |
+| Jason Lee       | 10/30/16  | Physical View      |1.0      |
+| Kevin Elizabeth | 11/01/16  | Database View      |1.0      |
 
 Introduction
 ============
@@ -109,7 +110,7 @@ A user uses the web application DuoMonkeyEditor. The web application sends input
 
 Database View
 =============
-![DatabaseView]()
+![DatabaseView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
 
 Work-Assignment View
 ====================

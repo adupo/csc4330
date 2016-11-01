@@ -135,3 +135,6 @@ Physical View Catalog
 
 User Interfaces
 ===============
+![Website] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png)
+![Chat] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png)
+![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/text_editor.png)

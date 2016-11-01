@@ -81,11 +81,13 @@ Text Editor
 -----------
 ![Sub-system1](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Text%20Editor%20Diagram.png)
 
-The architectural design of the text editor is like every other text editor. The user is able to input text into the text editor (the text area) as well as changing the font properties and the format of the text. This design is a derivative of Firepad.
+The architectural design of the text editor is like every other text editor. The user is able to input text into the text editor (the text area) as well as changing the font properties and the format of the text. The input text can be either over a selected area of text or based on the cursor position in the document. This system is heavily based on Firepad (by Firebase; Google).
 
 Messaging System
 ----------------
-    input from website ----> back end ------> display on database
+![Sub-system2]()
+
+The architectural design of the messaging system is simply a basic chat application that allows the user to communicate with other users. The user would input their message and the message is sent to the server to be added in the message board, which is to be displayed to the user. This system is heavily based on Firechat (by Firebase; Google).
 
 Rational For Each Architectural Choice
 ======================================

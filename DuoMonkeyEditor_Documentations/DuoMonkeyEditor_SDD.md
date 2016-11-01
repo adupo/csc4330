@@ -89,8 +89,9 @@ Rational For Each Architectural Choice
 ======================================
 Text Editor
 -----------
-![Sub-system1]()  
-The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions like every other editor, allowing the user to...
+![Sub-system1](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Image/Text%20Editor%20Diagram.png)
+
+The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions like every other editor, allowing the user to input text into the text area as well as changing the font properties of the text and the format of the document.
 
 Messaging System
 ----------------

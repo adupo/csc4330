@@ -57,16 +57,7 @@ Main System Architecture
 ========================
 General System Overview
 -----------------------
-    The DuoMonkeyEditor Architectural Diagram:
-    +----------------------------------------+
-    |           Front-end (Website)          |
-    +----------------------------------------+
-    +-----------------+   +------------------+
-    |   Text Editor   |   | Messaging System |
-    +-----------------+   +------------------+
-    +----------------------------------------+
-    |            Back-end (Server)           |
-    +----------------------------------------+
+![architectural design](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram.png)
 
 The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
 
@@ -110,7 +101,9 @@ A user uses the web application DuoMonkeyEditor. The web application sends input
 
 Database View
 =============
-![DatabaseView](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
+![database view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
+
+TODO
 
 Work-Assignment View
 ====================

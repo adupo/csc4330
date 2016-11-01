@@ -124,7 +124,7 @@ Work-Assignment View
 The following is the work assignment of the components of the DuoMonkeyEditor:
 * The website (front-end): Jason Lee, Kevin Elizabeth
 * The application:
-  * Text Editor: Wilson Zhu, Blake Allen
+  * Text Editor:
     * UI: Blake Allen
     * Text Editor Functions: Wilson Zhu
   * Messaging System:

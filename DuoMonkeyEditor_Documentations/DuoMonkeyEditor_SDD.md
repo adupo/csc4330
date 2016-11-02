@@ -75,7 +75,7 @@ Text Editor
 
 The architectural design of the text editor is like every other text editor. The user is able to input text into the text editor (the text area) as well as changing the font properties and the format of the text. The input text can be either over a selected area of text or based on the cursor position in the document. This system is heavily based on Firepad (by Firebase; Google).
 
-![line data structure]()
+![line data structure](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/line.png)
 
 The basic data type in the text editor is a line, which is essentially a linked list that contains the character data and the formatting of the character. If the linked list exceeds a certain length (in this case, the length of the text area) a new line is created.
 

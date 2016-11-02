@@ -106,14 +106,17 @@ The architectural design of the messaging system is simply a basic chat applicat
 ======================================
 Text Editor
 -----------
-The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). 
+The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). This text editor will most of the same functionality as many other text editors including copy, paste, and select. Our text editor will also be using a linked list based implementation, because when we were researching how text editors were created the "best" and most commonly found implementations used this method. As mostly JAVA programmers we are all fimilar with linked lists and found this is the easist way to implement the text editor. A function that we added was the ability to highlight the code so the other programmer could see where you highlighted. This would help show where the errors are and put less stress on the messaging system. Instead of having a long message conversation, you could just highlight the section of code and your partner could see it and fix the error.
 
 Messaging System
 ----------------
+The architectural design of the messaging system is based mostly on Firechat (by Firebase; Google),which is an open-source application. The idea for the messaging system was to be able to link two programmers together who may not be near each other or who may want to view the code on their own machine, and have them still be able to talk.  
 
 5. Development View
 ================
 ![development view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Development_View.png)
+
+
 6. Physical View
 =============
 ![physical view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/physical.PNG)

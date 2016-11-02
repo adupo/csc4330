@@ -10,15 +10,24 @@ Table of Contents
    3. Scope
    4. Overview
 2. Main System Architecture
-   1.
+   1. General System Overview
+   2. Application Use Case
 3. Sub-Systems Architecture
+   1. Text Editor Architecture
+   2. Messaging System Architecture
 4. Rational Architectural Choices
+   1. Text Editor Rational
+   2. Messaging System Rational
 5. Development View
 6. Physical View
 7. Database View
 8. Work-Assignment View
 9. Element Catalog
 10. User Interfaces
+   1. Website Interface
+   2. Text Editor Interface
+   3. Messgaing System Interface
+
 **NOTE: Use Ctrl-F to nagivate the document**
 
 Revision History
@@ -32,19 +41,19 @@ Revision History
 
 1. Introduction
 ===============
-i. Purpose
--------
+Purpose
+-------------
 The purpose of this Software Design Document (SDD) is to describe how the DuoMonkeyEditor will be designed and implemented. The document should provide enough information to aid in the development process of the web application.
   
-ii. Intended Audience
+Intended Audience
 ---------------------
 The DuoMonkeyEditor is a real-time collaborative editor that is intended for software developers that are performing pair programming. Although this concept of a real-time collaborative editor is not new, the DuoMonkeyEditor aims to be simple and easy to use, requiring only the user's existing Google account.
 
-iii. Scope
+Scope
 ----------
 The web application contains two major components that it will function with, the text editor and the messaging system. The user's interaction with the two components will be synced to the database, providing the real-time display of information between the users. This document will cover the architectural structure of each component as well as the overall structure of the application itself.
   
-iv. Overview
+Overview
 ------------
 The document will cover the following areas:
   * Main System Architecture (Logical View): Provides a description and graphical representation of the Main System and its relation to the application
@@ -58,7 +67,7 @@ The document will cover the following areas:
   * User Interfaces: Provides a description and visual aid of the graphical user interface (GUI) for DuoMonkeyEditor
   
 
-Main System Architecture
+2. Main System Architecture
 ========================
 General System Overview
 -----------------------
@@ -72,7 +81,7 @@ Application Use Case
 
 When using the DuoMonkeyEditor, the user can do 5 things with the application. In order to use the application, the user needs to log in using their Google account. Upon logging in the application, the user then has two options, creating or joining a session. Whether the user chooses to create a new session or join an existing session, they are required to input the password associated with the session. Once in, the user can either edit code on the text editor or message using the messaging system, which is continuously updated with the database.
 
-Sub-Systems Architecture
+3. Sub-Systems Architecture
 ========================
 Text Editor
 -----------
@@ -90,7 +99,7 @@ Messaging System
 
 The architectural design of the messaging system is simply a basic chat application that allows the user to communicate with other users. The user would input their message and the message is sent to the server to be added in the message board, which is to be displayed to the user. This system is heavily based on Firechat (by Firebase; Google).
 
-Rational For Each Architectural Choice
+4. Rational For Each Architectural Choice
 ======================================
 Text Editor
 -----------
@@ -99,22 +108,22 @@ The architectural design of the text editor is heavily based up Firepad, which i
 Messaging System
 ----------------
 
-Development View
+5. Development View
 ================
 
-Physical View
+6. Physical View
 =============
 ![physical view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/physical.PNG)
 
 A user uses the web application DuoMonkeyEditor. The web application sends input to web server which then forwards the messages to the user's partner. The user's partner using DuoMonkeyEditor sees the output of what the user typed and sends any edits to the web application and throught the server to be updated.
 
-Database View
+7. Database View
 =============
 ![database view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
 
 TODO
 
-Work-Assignment View
+8. Work-Assignment View
 ====================
 The following is the work assignment of the components of the DuoMonkeyEditor:
 * The website (front-end): Jason Lee, Kevin Elizabeth
@@ -126,7 +135,7 @@ The following is the work assignment of the components of the DuoMonkeyEditor:
     * UI: Aaron Dupont
     * Chat Functions: Wilson Zhu
 
-Element Catalog
+9. Element Catalog
 ===============
 Physical View Catalog  
 ---------------------
@@ -136,7 +145,7 @@ Physical View Catalog
 |![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |represents the Firebase server|
 |![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |represents the user|
 
-User Interfaces
+10. User Interfaces
 ===============
 Below is the graphical user interface for DuoMonkeyEditor and a short description of how they map to the architecture.
 

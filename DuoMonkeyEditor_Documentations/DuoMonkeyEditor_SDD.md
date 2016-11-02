@@ -42,6 +42,7 @@ Revision History
 | Wilson Zhu      | 11/01/16  | Sub-System Architecture         |1.0      |
 | Aaron Dupont    | 11/02/16  | User Interface                  |1.0      |
 | Blake Allen     | 11/02/16  | Rational, Development View      |1.0      |
+| Kevin Elizabeth | 11/02/16  | Database View                   |1.0      |
 
 1. Introduction
 ===============
@@ -133,7 +134,7 @@ A user uses the web application DuoMonkeyEditor. The web application sends input
 =============
 ![database view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ER_Diagram.png)
 
-TODO
+A user participates in a session and edits in the text editor. Each session contains an instance of the text editor and the chat feature. This model was made with the presumption that two users would be using the application.
 
 8. Work-Assignment View
 ====================

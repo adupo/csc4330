@@ -147,31 +147,34 @@ The following image is a graphical representation of the work assignment for Duo
 Application Use Case Diagram Catalog
 ------------------------
 | Symbol | Description |
-| ![] () | Actor |
-| ![] () | Use Case |
-| ![] () | Subsystem |
+| ------ | ----------- |
+| ![] () | Actor       |
+| ![] () | Use Case    |
+| ![] () | Subsystem   |
 | ![] () | Association |
 
 Sub-Systems Architecture Diagram Catalog
 ------------------------
 | Symbol | Description |
-| ![] () | Actor |
-| ![] () | Use Case |
-| ![] () | Subsystem |
-| ![] () | Association |
+| ------ | ----------- |
+| ![] () |             |
+| ![] () |             |
+| ![] () |             |
+| ![] () |             |
 
 Development View Catalog
 ------------------------
 | Symbol | Description |
-| ![] () | Actor |
-| ![] () | Use Case |
-| ![] () | Subsystem |
-| ![] () | Association |
+| ------ | ----------- |
+| ![] () |             |
+| ![] () |             |
+| ![] () |             |
+| ![] () |             |
 
 Physical View Catalog  
 ---------------------
-|Symbol                                                                                                                   |Description               |
-|-------------------------------------------------------------------------------------------------------------------------|--------------------------|
+|Symbol                       |Description               |
+|-----------------------------|--------------------------|
 |![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|represents the DuoMonkeyEditor application|
 |![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |represents the Firebase server|
 |![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |represents the user|
@@ -179,6 +182,7 @@ Physical View Catalog
 Database View Catalog
 ------------------------
 | Symbol                       | Description |
+| -------                      | ----------- |
 | Oval                         |             |
 | Diamond                      |             |
 | Connecting Line              |             |

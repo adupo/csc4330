@@ -117,6 +117,10 @@ The architectural design of the messaging system is based mostly on Firechat (by
 ![development view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Development_View.png)
 
 The DuoMonkeyEditor project will be using mostly html,js,css, and json files. The directory structure is shown above. NOTE: All boxes that are orange are directories and the grey boxs are source files.
+The first and main directory is called DuoMonkeyEditor. It contains the directories for the css (style) and javascript (scripts) for the application. This directory also contains the main html and an icon that will be shown in the browser. 
+The next directory is called style. In this directory the bulk of the css for the project is stored here.
+In the next directory, called scripts, we store all the js files and one last directory called text.
+In the last directory, called text, we have all files relating to the text editor portion of the project. 
 
 6. Physical View
 =============

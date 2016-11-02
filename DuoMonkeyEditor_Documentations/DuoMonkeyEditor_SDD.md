@@ -106,7 +106,7 @@ The architectural design of the messaging system is simply a basic chat applicat
 ======================================
 Text Editor
 -----------
-The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions operates like every other text editor and the integration with the Firebase server makes it easier to implement the text editor in the application.
+The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). 
 
 Messaging System
 ----------------

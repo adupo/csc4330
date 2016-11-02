@@ -128,7 +128,7 @@ TODO
 
 8. Work-Assignment View
 ====================
-The following is the work assignment for DuoMonkeyEditor and how they map to the architecture of the project:
+Below is a graphical representation of the work assignment for DuoMonkeyEditor and how each team member maps to the architecture of the project:
 ![work assignment](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram_work_assignment.png)
 
 * Front-end (Website): Jason Lee, Kevin Elizabeth

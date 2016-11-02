@@ -32,15 +32,15 @@ Table of Contents
 
 Revision History
 ================
-| Name            | Date      | Reason For Changes             | Version |
-| --------------- |:---------:| ------------------             | ------- |
-| Aaron Dupont    | 10/26/16  | Creation, Intro                |1.0      |
-| Wilson Zhu      | 10/28/16  | Main System Architecture       |1.0      |
-| Jason Lee       | 10/30/16  | Physical View, Element Catalog |1.0      |
-| Aaron Dupont    | 11/01/16  | Work Assignment View           |1.0      |
-| Kevin Elizabeth | 11/01/16  | Database View                  |1.0      |
-| Wilson Zhu      | 11/01/16  | Sub-System Architecture        |1.0      |
-| Aaron Dupont    | 11/02/16  | User Interface                 |1.0      |
+| Name            | Date      | Reason For Changes              | Version |
+| --------------- |:---------:| ------------------              | ------- |
+| Aaron Dupont    | 10/26/16  | Creation, Intro                 |1.0      |
+| Wilson Zhu      | 10/28/16  | Intro, Main System Architecture |1.0      |
+| Jason Lee       | 10/30/16  | Physical View, Element Catalog  |1.0      |
+| Aaron Dupont    | 11/01/16  | Work Assignment View            |1.0      |
+| Kevin Elizabeth | 11/01/16  | Database View                   |1.0      |
+| Wilson Zhu      | 11/01/16  | Sub-System Architecture         |1.0      |
+| Aaron Dupont    | 11/02/16  | User Interface                  |1.0      |
 
 1. Introduction
 ===============

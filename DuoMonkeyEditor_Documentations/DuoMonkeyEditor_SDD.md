@@ -106,13 +106,14 @@ The architectural design of the messaging system is simply a basic chat applicat
 ======================================
 Text Editor
 -----------
-The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). The text editor functions operates like every other text editor and the integration with the Firebase server makes it easier to implement the text editor in the application.
+The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google).
 
 Messaging System
 ----------------
 
 5. Development View
 ================
+The 
 
 6. Physical View
 =============
@@ -144,49 +145,13 @@ The following image is a graphical representation of the work assignment for Duo
 9. Element Catalog
 ===============
 
-Application Use Case Diagram Catalog
-------------------------
-| Symbol         | Description          |
-| ------         | -----------          |
-| ![actor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/UseCase_Actor.png)  | Actor  |
-| Green Oval     | Use Case             |
-| Grey Rectangle | Application System   |
-| Grey Arrow     | Association          |
-
-Sub-Systems Architecture Diagram Catalog
-------------------------
-| Symbol | Description |
-| ------ | ----------- |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-
-Development View Catalog
-------------------------
-| Symbol | Description |
-| ------ | ----------- |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-
 Physical View Catalog  
 ---------------------
-|Symbol                       |Description               |
-|-----------------------------|--------------------------|
+|Symbol                                                                                                                   |Description               |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------|
 |![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|represents the DuoMonkeyEditor application|
 |![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |represents the Firebase server|
 |![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |represents the user|
-
-Database View Catalog
-------------------------
-| Symbol                       | Description |
-| -------                      | ----------- |
-| Oval                         |             |
-| Diamond                      |             |
-| Connecting Line              |             |
-| Connecting Lline With Circle |             |
 
 10. User Interfaces
 ===============

@@ -178,11 +178,11 @@ Physical View Catalog
 
 Database View Catalog
 ------------------------
-| Symbol | Description |
-| ![] () | Actor |
-| ![] () | Use Case |
-| ![] () | Subsystem |
-| ![] () | Association |
+| Symbol                       | Description |
+| Oval                         |             |
+| Diamond                      |             |
+| Connecting Line              |             |
+| Connecting Lline With Circle |             |
 
 10. User Interfaces
 ===============

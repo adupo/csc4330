@@ -128,15 +128,19 @@ TODO
 
 8. Work-Assignment View
 ====================
-The following is the work assignment of the components of the DuoMonkeyEditor:
-* The website (front-end): Jason Lee, Kevin Elizabeth
-* The application:
+The following is the work assignment for DuoMonkeyEditor and how they map to the architecture of the project:
+![work assignment](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram_work_assignment.png)
+
+* Front-end (Website): Jason Lee, Kevin Elizabeth
+* Application:
   * Text Editor:
     * UI: Blake Allen
-    * Text Editor Functions: Wilson Zhu
+    * Text Editor Functionality: Wilson Zhu
   * Messaging System:
     * UI: Aaron Dupont
-    * Chat Functions: Wilson Zhu
+    * Chat Functionality: Wilson Zhu
+* The Back-end (Server):
+  * Firebase: Wilson Zhu
 
 9. Element Catalog
 ===============

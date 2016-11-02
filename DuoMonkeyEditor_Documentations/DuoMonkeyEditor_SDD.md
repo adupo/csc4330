@@ -110,12 +110,12 @@ The architectural design of the text editor is heavily based up Firepad, which i
 
 Messaging System
 ----------------
-The architectural design of the messaging system is based mostly on Firechat (by Firebase; Google),which is an open-source application. The idea for the messaging system was to be able to link two programmers together who may not be near each other or who may want to view the code on their own machine, and have them still be able to talk.  
+The architectural design of the messaging system is based mostly on Firechat (by Firebase; Google),which is an open-source application. The idea for the messaging system was to be able to link two programmers together who may not be near each other or who may want to view the code on their own machine, and have them still be able to talk. When researching the methods of creating a "real-time" messaging system, a common pratice was to have a database implementation, where text entered would be sent to a database and then displayed from that database to a recievers terminal.
 
 5. Development View
 ================
 ![development view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Development_View.png)
-
+TODO
 
 6. Physical View
 =============

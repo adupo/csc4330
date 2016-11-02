@@ -159,14 +159,17 @@ Below is the graphical user interface for DuoMonkeyEditor and a short descriptio
 Front-end (Website) Interface
 -----------------------------
 ![Website] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png)
+
+
 This is the mock up of the graphical user interface for the DuoMonkeyEditor website. 
 * Allows logging in by clicking "Get Started" (pictured above).
-* Allows access to information about the features of the application.
-* Allows access to contact information for the creaters of the application.
+* Allows access to the application.
 
 Text Editor Interface
 ---------------------
-![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png)
+![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png) <br />
+
+
 This is the mock up of the graphical user interface for the DuoMonkeyEditor text editor.
 * Allows input and modification of text.
 * Allows font changes to text. 
@@ -175,6 +178,8 @@ This is the mock up of the graphical user interface for the DuoMonkeyEditor text
 Messaging System Interface
 --------------------------
 ![Chat] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png)
+
+
 This is the mock up of the graphical user interface for the DuoMonkeyEditor messaging system.
 * Allows sending and receiving of messages.
 

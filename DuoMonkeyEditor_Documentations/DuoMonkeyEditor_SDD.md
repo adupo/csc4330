@@ -4,17 +4,21 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
 Table of Contents
 =================
+1. Introduction
+⋅⋅1.1 Purpose
+⋅⋅1.2 Intended Audience
+⋅⋅1.3 Scope
+⋅⋅1.4 Overview
+2. Main System Architecture
+3. Sub-Systems Architecture
+4. Rational Architectural Choices
+5. Development View
+6. Physical View
+7. Database View
+8. Work-Assignment View
+9. Element Catalog
+10. User Interfaces
 **NOTE: Use Ctrl-F to nagivate the document**
-* Introduction
-* Main System Architecture
-* Sub-Systems Architecture
-* Rational Architectural Choices
-* Development View
-* Physical View
-* Database View
-* Work-Assignment View
-* Element Catalog
-* User Interfaces
 
 Revision History
 ================

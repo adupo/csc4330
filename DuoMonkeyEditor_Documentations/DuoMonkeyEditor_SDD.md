@@ -139,8 +139,7 @@ The following is the work assignment for DuoMonkeyEditor and how they map to the
   * Messaging System:
     * UI: Aaron Dupont
     * Chat Functionality: Wilson Zhu
-* The Back-end (Server):
-  * Firebase: Wilson Zhu
+* The Back-end (Server): Wilson Zhu
 
 9. Element Catalog
 ===============

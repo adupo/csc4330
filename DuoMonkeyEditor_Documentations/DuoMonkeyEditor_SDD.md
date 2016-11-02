@@ -24,7 +24,7 @@ Table of Contents
 8. Work-Assignment View
 9. Element Catalog
 10. User Interfaces
-   1. Website Interface
+   1. Front-end (Website) Interface
    2. Text Editor Interface
    3. Messgaing System Interface
 
@@ -128,7 +128,7 @@ TODO
 
 8. Work-Assignment View
 ====================
-Below is a graphical representation of the work assignment for DuoMonkeyEditor and how each team member maps to the architecture of the project:
+The following image is a graphical representation of the work assignment for DuoMonkeyEditor and how each team member maps to the architecture of the project.
 ![work assignment](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram_work_assignment.png)
 
 * Front-end (Website): Jason Lee, Kevin Elizabeth
@@ -143,6 +143,7 @@ Below is a graphical representation of the work assignment for DuoMonkeyEditor a
 
 9. Element Catalog
 ===============
+
 Physical View Catalog  
 ---------------------
 |Symbol                                                                                                                   |Description               |
@@ -155,17 +156,25 @@ Physical View Catalog
 ===============
 Below is the graphical user interface for DuoMonkeyEditor and a short description of how they map to the architecture.
 
-Front-End (Website)
--------------------
+Front-end (Website) Interface
+-----------------------------
 ![Website] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png)
-Website:
-*allows the user to log in with their Google account by clicking "Get Started"
+This is the mock up of the graphical user interface for the DuoMonkeyEditor website. 
+* Allows logging in by clicking "Get Started" (pictured above).
+* Allows access to information about the features of the application.
+* Allows access to contact information for the creaters of the application.
 
-Text Editor
------------
-![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad.png)
+Text Editor Interface
+---------------------
+![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png)
+This is the mock up of the graphical user interface for the DuoMonkeyEditor text editor.
+* Allows input and modification of text.
+* Allows font changes to text. 
+* This is the main feature of the GUI.
 
-Messaging System
-----------------
+Messaging System Interface
+--------------------------
 ![Chat] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png)
+This is the mock up of the graphical user interface for the DuoMonkeyEditor messaging system.
+* Allows sending and receiving of messages.
 

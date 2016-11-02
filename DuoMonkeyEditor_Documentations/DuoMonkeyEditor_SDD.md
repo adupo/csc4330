@@ -113,7 +113,7 @@ Messaging System
 
 5. Development View
 ================
-
+![development view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Development_View.png)
 6. Physical View
 =============
 ![physical view](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/physical.PNG)

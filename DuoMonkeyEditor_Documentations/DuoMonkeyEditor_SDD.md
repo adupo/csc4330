@@ -5,11 +5,12 @@ Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 Table of Contents
 =================
 1. Introduction
-  1.1 Purpose
-  1.2 Intended Audience
-  1.3 Scope
-  1.4 Overview
+   1. Purpose
+   2. Intended Audience
+   3. Scope
+   4. Overview
 2. Main System Architecture
+   1.
 3. Sub-Systems Architecture
 4. Rational Architectural Choices
 5. Development View
@@ -29,22 +30,22 @@ Revision History
 | Jason Lee       | 10/30/16  | Physical View      |1.0      |
 | Kevin Elizabeth | 11/01/16  | Database View      |1.0      |
 
-Introduction
-============
-Purpose
+1. Introduction
+===============
+i. Purpose
 -------
 The purpose of this Software Design Document (SDD) is to describe how the DuoMonkeyEditor will be designed and implemented. The document should provide enough information to aid in the development process of the web application.
   
-Intended Audience
------------------
+ii. Intended Audience
+---------------------
 The DuoMonkeyEditor is a real-time collaborative editor that is intended for software developers that are performing pair programming. Although this concept of a real-time collaborative editor is not new, the DuoMonkeyEditor aims to be simple and easy to use, requiring only the user's existing Google account.
 
-Scope
------
+iii. Scope
+----------
 The web application contains two major components that it will function with, the text editor and the messaging system. The user's interaction with the two components will be synced to the database, providing the real-time display of information between the users. This document will cover the architectural structure of each component as well as the overall structure of the application itself.
   
-Overview
---------
+iv. Overview
+------------
 The document will cover the following areas:
   * Main System Architecture (Logical View): Provides a description and graphical representation of the Main System and its relation to the application
   * Sub-Systems Architecture: Provides a description and graphical representation of each sub-system for DuoMonkeyEditor

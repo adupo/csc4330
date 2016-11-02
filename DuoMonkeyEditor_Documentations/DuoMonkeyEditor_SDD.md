@@ -76,7 +76,7 @@ General System Overview
 -----------------------
 ![architectural design](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram.png)
 
-The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with. The second layer is application layer that is composed of the text editor and the messaging system, the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
+The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with.  The first layer is rendered using Javascript and Bootstrap as its framework. The second layer is application layer that is composed of the text editor and the messaging system as well as all the dependencies of the application components (UnderscoreJS and jQuery), the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
 
 Application Use Case
 --------------------

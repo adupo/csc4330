@@ -191,10 +191,12 @@ Database View Catalog
 ------------------------
 | Symbol                       | Description |
 | -------                      | ----------- |
-| Oval                         |             |
-| Diamond                      |             |
-| Connecting Line              |             |
-| Connecting Lline With Circle |             |
+| ![Entity](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Rectangle.png)    | Entity      |
+| ![Relationship](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Diamond.png)     | Relationship |
+| ![Attribute](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Oval.png)      | Attribute |
+| ![OneToOne](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/oneToOneRelationship.png)| One to One Relationship |
+| ![OneToMany](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/oneToManyRelationship.png)| One to Many Relationship |
+| ![ManyToMany](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/manyToManyRelationship.png)| Many to Many Relationship |
 
 10. User Interfaces
 ===============

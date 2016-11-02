@@ -146,12 +146,12 @@ The following image is a graphical representation of the work assignment for Duo
 
 Application Use Case Diagram Catalog
 ------------------------
-| Symbol | Description |
-| ------ | ----------- |
-| ![] () | Actor       |
-| ![] () | Use Case    |
-| ![] () | Subsystem   |
-| ![] () | Association |
+| Symbol         | Description          |
+| ------         | -----------          |
+| ![actor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/UseCase_Actor.png)  | Actor  |
+| Green Oval     | Use Case             |
+| Grey Rectangle | Application System   |
+| Grey Arrow     | Association          |
 
 Sub-Systems Architecture Diagram Catalog
 ------------------------

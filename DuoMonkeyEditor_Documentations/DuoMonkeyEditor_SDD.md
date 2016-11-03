@@ -24,10 +24,9 @@ Table of Contents
 8. Work-Assignment View
 9. Element Catalog
    1. Application Use Case Diagram Catalog
-   2. Sub-Systems Architecture Diagram Catalog
-   3. Development View Catalog
-   4. Physical View Catalog
-   5. Database View Catalog
+   2. Development View Catalog
+   3. Physical View Catalog
+   4. Database View Catalog
 10. User Interfaces
    1. Front-end (Website) Interface
    2. Text Editor Interface
@@ -159,8 +158,8 @@ The following image is a graphical representation of the work assignment for Duo
 9. Element Catalog
 ===============
 
-Application Use Case Diagram Catalog
-------------------------
+&nbsp;&nbsp;&nbsp;i. Application Use Case Diagram Catalog
+---------------------------------------------------------
 | Symbol         | Description          |
 | ------         | -----------          |
 | ![actor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/UseCase_Actor.png)  | Actor  |
@@ -168,16 +167,7 @@ Application Use Case Diagram Catalog
 | Grey Rectangle | Application System   |
 | Grey Arrow     | Association          |
 
-Sub-Systems Architecture Diagram Catalog
-------------------------
-| Symbol | Description |
-| ------ | ----------- |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-| ![] () |             |
-
-Development View Catalog
+&nbsp;&nbsp;&nbsp;ii. Development View Catalog
 ------------------------
 | Symbol | Description |
 | ------ | ----------- |
@@ -185,16 +175,16 @@ Development View Catalog
 | Grey Rectangle   | Represents a Source File |
 | Arrow            | Represents Inheritance   |
 
-Physical View Catalog  
----------------------
+&nbsp;&nbsp;&nbsp;iii. Physical View Catalog  
+-------------------------------------------
 |Symbol                       |Description               |
 |-----------------------------|--------------------------|
 |![application](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application.jpg)|represents the DuoMonkeyEditor application|
 |![server](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/server.jpg)	      |represents the Firebase server|
 |![user](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/user.jpeg)		        |represents the user|
 
-Database View Catalog
-------------------------
+&nbsp;&nbsp;&nbsp;iv. Database View Catalog
+------------------------------------------
 | Symbol                       | Description |
 | -------                      | ----------- |
 | ![Entity](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Rectangle.png)    | Entity      |

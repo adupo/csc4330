@@ -23,6 +23,11 @@ Table of Contents
 7. Database View
 8. Work-Assignment View
 9. Element Catalog
+   1. Application Use Case Diagram Catalog
+   2. Sub-Systems Architecture Diagram Catalog
+   3. Development View Catalog
+   4. Physical View Catalog
+   5. Database View Catalog
 10. User Interfaces
    1. Front-end (Website) Interface
    2. Text Editor Interface
@@ -214,7 +219,7 @@ This is the mock up of the graphical user interface for the DuoMonkeyEditor webs
 
 &nbsp;&nbsp;&nbsp;ii. Text Editor Interface
 -------------------------------------------
-<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png" alt="Website" height="300" width="500" /> <br />
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png" alt="Website" height="300" width="550" /> <br />
 
 This is the mock up of the graphical user interface for the DuoMonkeyEditor text editor. Users will be presented with this interface after inputing their Google account in the screen above.
 * Allows input and modification of text.
@@ -223,7 +228,7 @@ This is the mock up of the graphical user interface for the DuoMonkeyEditor text
 
 &nbsp;&nbsp;&nbsp;iii. Messaging System Interface
 -------------------------------------------------
-<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png" alt="Website" height="400" width="350" /> <br />
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png" alt="Website" height="450" width="400" /> <br />
 
 This is the mock up of the graphical user interface for the DuoMonkeyEditor messaging system. Users will be presented with this interface alongside the text editor interface.
 * Allows sending and receiving of messages.

@@ -47,6 +47,7 @@ Revision History
 | Aaron Dupont    | 11/02/16  | User Interface                  |1.0      |
 | Blake Allen     | 11/02/16  | Rational, Development View      |1.0      |
 | Kevin Elizabeth | 11/02/16  | Database View                   |1.0      |
+| Aaron Dupont    | 11/02/16  | Proofread, Finishing Touches    |1.0      |
 
 1. Introduction
 ===============

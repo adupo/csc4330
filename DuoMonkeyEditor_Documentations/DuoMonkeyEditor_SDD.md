@@ -46,20 +46,20 @@ Revision History
 
 1. Introduction
 ===============
-Purpose
--------------
+&nbsp;&nbsp;&nbsp;i. Purpose
+----------------------------
 The purpose of this Software Design Document (SDD) is to describe how the DuoMonkeyEditor will be designed and implemented. The document should provide enough information to aid in the development process of the web application.
   
-Intended Audience
----------------------
+&nbsp;&nbsp;&nbsp;ii. Intended Audience
+---------------------------------------
 The DuoMonkeyEditor is a real-time collaborative editor that is intended for software developers that are performing pair programming. Although this concept of a real-time collaborative editor is not new, the DuoMonkeyEditor aims to be simple and easy to use, requiring only the user's existing Google account.
 
-Scope
-----------
+&nbsp;&nbsp;&nbsp;iii. Scope
+----------------------------
 The web application contains two major components that it will function with, the text editor and the messaging system. The user's interaction with the two components will be synced to the database, providing the real-time display of information between the users. This document will cover the architectural structure of each component as well as the overall structure of the application itself.
   
-Overview
-------------
+&nbsp;&nbsp;&nbsp;iv. Overview
+------------------------------
 The document will cover the following areas:
   * Main System Architecture (Logical View): Provides a description and graphical representation of the Main System and its relation to the application
   * Sub-Systems Architecture: Provides a description and graphical representation of each sub-system for DuoMonkeyEditor
@@ -74,22 +74,22 @@ The document will cover the following areas:
 
 2. Main System Architecture
 ========================
-General System Overview
------------------------
+&nbsp;&nbsp;&nbsp;i. General System Overview
+--------------------------------------------
 ![architectural design](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/architecture_diagram.png)
 
 The DuoMonkeyEditor is composed of 3 major layers. The first layer is the website itself, which is the graphical user interface that users will interact with.  The first layer is rendered using Javascript and Bootstrap as its framework. The second layer is application layer that is composed of the text editor and the messaging system as well as all the dependencies of the application components (UnderscoreJS and jQuery), the user's interaction with the website/GUI will directly affect the application. The final layer is the server that the application will communicate with in order to sync the data across the instances of the application (only between communicating users).
 
-Application Use Case
---------------------
+&nbsp;&nbsp;&nbsp;ii. Application Use Case
+------------------------------------------
 ![application use case](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/application_use_case.png)
 
 When using the DuoMonkeyEditor, the user can do 5 things with the application. In order to use the application, the user needs to log in using their Google account. Upon logging in the application, the user then has two options, creating or joining a session. Whether the user chooses to create a new session or join an existing session, they are required to input the password associated with the session. Once in, the user can either edit code on the text editor or message using the messaging system, which is continuously updated with the database.
 
 3. Sub-Systems Architecture
-========================
-Text Editor
------------
+===========================
+&nbsp;&nbsp;&nbsp;i. Text Editor Architecture
+---------------------------------------------
 ![text editor](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/texteditor.png)
 
 The architectural design of the text editor is like every other text editor. The user is able to input text into the text editor (the text area) as well as changing the font properties and the format of the text. The input text can be either over a selected area of text or based on the cursor position in the document. This system is heavily based on Firepad (by Firebase; Google).
@@ -98,20 +98,20 @@ The architectural design of the text editor is like every other text editor. The
 
 The basic data type in the text editor is a line, which is essentially a linked list that contains the character data and the formatting of the character. If the linked list exceeds a certain length (in this case, the length of the text area) a new line is created.
 
-Messaging System
-----------------
+&nbsp;&nbsp;&nbsp;ii. Messaging System Architecture
+---------------------------------------------------
 ![chat](https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/chat.png)
 
 The architectural design of the messaging system is simply a basic chat application that allows the user to communicate with other users. The user would input their message and the message is sent to the server to be added in the message board, which is to be displayed to the user. This system is heavily based on Firechat (by Firebase; Google).
 
 4. Rational For Each Architectural Choice
-======================================
-Text Editor
------------
+=========================================
+&nbsp;&nbsp;&nbsp;i. Text Editor Rational
+-----------------------------------------
 The architectural design of the text editor is heavily based up Firepad, which is an open-source applcation that is hosted by Firebase (Google). This text editor will most of the same functionality as many other text editors including copy, paste, and select. Our text editor will also be using a linked list based implementation, because when we were researching how text editors were created the "best" and most commonly found implementations used this method. As mostly JAVA programmers we are all fimilar with linked lists and found this is the easist way to implement the text editor. A function that we added was the ability to highlight the code so the other programmer could see where you highlighted. This would help show where the errors are and put less stress on the messaging system. Instead of having a long message conversation, you could just highlight the section of code and your partner could see it and fix the error.
 
-Messaging System
-----------------
+&nbsp;&nbsp;&nbsp;ii. Messaging System Rational
+-----------------------------------------------
 The architectural design of the messaging system is based mostly on Firechat (by Firebase; Google),which is an open-source application. The idea for the messaging system was to be able to link two programmers together who may not be near each other or who may want to view the code on their own machine, and have them still be able to talk. When researching the methods of creating a "real-time" messaging system, a common pratice was to have a database implementation, where text entered would be sent to a database and then displayed from that database to a recievers terminal. We will do the same. Taking advantage of the open source Firechat, we will use their database for handling all the posts/recieves in the messaging system. This will insure that the application will not be broken by too many message requests.
 
 5. Development View
@@ -203,29 +203,27 @@ Database View Catalog
 ===============
 Below is the graphical user interface for DuoMonkeyEditor and a short description of how they map to the architecture.
 
-Front-end (Website) Interface
------------------------------
-![Website] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png)
-![Login] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/DuoMonkeyEditor_Login.png)
+&nbsp;&nbsp;&nbsp;i. Front-end (Website) Interface
+--------------------------------------------------
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/MainScreen.png" alt="Website" height="300" width="450" />
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/DuoMonkeyEditor_Login.png" alt="Website" height="300" width="250" /> <br />
 
 This is the mock up of the graphical user interface for the DuoMonkeyEditor website. Users will be presented with this interface upon arriving at the website.
 * Allows logging in by clicking "Get Started" which will open the Google login screen (pictured above).
 * Allows access to the application.
 
-Text Editor Interface
----------------------
-![TextEditor] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png) <br />
-
+&nbsp;&nbsp;&nbsp;ii. Text Editor Interface
+-------------------------------------------
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/FirePad_Mockup.png" alt="Website" height="300" width="500" /> <br />
 
 This is the mock up of the graphical user interface for the DuoMonkeyEditor text editor. Users will be presented with this interface after inputing their Google account in the screen above.
 * Allows input and modification of text.
 * Allows font changes to text. 
 * This is the main feature of the GUI.
 
-Messaging System Interface
---------------------------
-![Chat] (https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png)
-
+&nbsp;&nbsp;&nbsp;iii. Messaging System Interface
+-------------------------------------------------
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/ChatRoom.png" alt="Website" height="400" width="350" /> <br />
 
 This is the mock up of the graphical user interface for the DuoMonkeyEditor messaging system. Users will be presented with this interface alongside the text editor interface.
 * Allows sending and receiving of messages.

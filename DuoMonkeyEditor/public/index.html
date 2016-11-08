@@ -1,72 +1,118 @@
-<!doctype html>
-<html lang = "en">
-  <head>
-    <meta charset = "utf-8">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta data of the website -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a project for CSC 4330">
+    <meta name="author" content="Wilson Zhu">
+
     <title> DuoMonkeyEditor </title>
-    <link rel = "stylesheet" type = "text/css" href = "main.css">
-    <!-- jQuery -->
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
 
-    <!-- Firebase -->
-    <script src = "https://www.gstatic.com/firebasejs/3.3.0/firebase.js"> </script>
-
-    <!-- DuoMonkeyEditor [TODO: Need to change the src and the path] -->
+    <!-- Bootstrap core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/cover.css" rel="stylesheet"> </head>
     <link rel = "stylesheet" href = "https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.css" />
-    <script src="scripts/firechat.js"></script>
-  </head>
 
-  <body>
-    <h1> Welcome to DuoMonkeyEditor! </h1>
-    <img src = "dilbert_codeMonkey.gif" alt = "dilbert comic" style = "width:600px; height:202px"/>
-    <p> This project is brought to you by:
-      <br> - Aaron Dupont [project manager]
-      <br> - Blake Allen
-      <br> - Jason Lee
-      <br> - Kevin Elizabeth
-      <br> - Wilson Zhu [programmer]
-      <br>
-      <br> Website is currently under construction!
-      <div id = "duoMonkeyEditor-wrapper">
-        <button onclick = "login()"> Login with Google </button>
-      </div>
-    </p>
-
+<body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand"> DuoMonkeyEditor </h3>
+                        <nav>
+                            <ul class="nav masthead-nav">
+                                <li id="mainLink" class="active"> <a href="index.html"> Home </a> </li>
+                                <li> <a href="#"> Features </a> </li>
+                                <li> <a href="#"> Contact </a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div id="front" class="inner cover" style="display:inline">
+                    <h1 class="cover-heading"> Welcome to DuoMonkeyEditor! </h1>
+                    <p class="lead">
+                        <div style="width:600px; height:202px; background-color: white; margin: 0 auto"> <img src="dilbert_codeMonkey.gif" alt="dilbert comic" style="width:600px; height:202px" /> </div>
+                        <br> DuoMonkeyEditor is a real time collaborative editor that is brought to you by: Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, and Wilson Zhu </p>
+                    <p class="lead"> <a href="#" onclick="login()" class="btn btn-lg btn-default"> Get started here! </a> </p>
+                </div>
+                <div id="back" class="inner cover" style="display:none"> </div>
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p> Template from <a href="http://getbootstrap.com"> Bootstrap </a> by <a href="https://twitter.com/mdo"> @mdo </a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jquery.min.js"> </script>
+    <script src="scripts/bootstrap.min.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"> </script>
     <script>
-      // Initialize Firebase SDK
-      var config = {
-        apiKey: "AIzaSyCfgIEZiq9Z7mIsD_rJ_XOr9OnL_iNJOqw",
-        authDomain: "codemonkeys-7eb43.firebaseapp.com",
-        databaseURL: "https://codemonkeys-7eb43.firebaseio.com",
-        storageBucket: "codemonkeys-7eb43.appspot.com",
-        messagingSenderId: "475588996397"
-      };
-      firebase.initializeApp(config);
-
-      function login() {
-        // Login the user in via Google
-        var provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).catch(function(error) {
-          console.log("Error authenticating user:", error);
-        });
-      }
-
-      firebase.auth().onAuthStateChanged(function(user) {
-        // Once authenticated, instantiate the application with the loggin in user
-        if (user) {
-          initApp(user);
-        }
-      });
-
-      function initApp(user) {
-        // Get a Firebase Database reference
-        var ref = firebase.database().ref("chat");
-
-        // Create an application instance
-        var app = new FirechatUI(ref, document.getElementById("duoMonkeyEditor-wrapper"));
-
-        // Set the user in the application
-        app.setUser(user.uid, user.displayName);
-      }
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBbzl6BvAiDUqBnn461_8Bhp41zrgpkNOs"
+            , authDomain: "duomonkeyeditor-5e358.firebaseapp.com"
+            , databaseURL: "https://duomonkeyeditor-5e358.firebaseio.com"
+            , storageBucket: ""
+            , messagingSenderId: "13590197687"
+        };
+        firebase.initializeApp(config);
     </script>
-  </body>
+    <script src="scripts/underscore-1.7.0.min.js"> </script>
+    <script src="scripts/templates.js"> </script>
+    <script src="scripts/shims.js"> </script>
+    <script src="scripts/duomonkeyeditor.js"> </script>
+    <script src="scripts/duomonkeyeditor-ui.js"> </script>
+    <script>
+        // The login function
+        function login() {
+            var provider = new firebase.auth.GoogleAuthProvider();
+            firebase.auth().signInWithPopup(provider).catch(function (error) {
+                console.log("Error authenticating user:", error);
+            });
+        }
+        // Once the user logs in the the application will initialize
+        firebase.auth().onAuthStateChanged(function (user) {
+            if (user) {
+                // If user is logged in, we focus on the div containing the application
+                var a = document.getElementById("mainLink");
+                a.innerHTML = "<a href='#' onclick='logout()'> Logout </a>"
+                var x = document.getElementById("front");
+                x.style.display = "none";
+                var y = document.getElementById("back");
+                y.style.display = "inline";
+
+                initApp(user);
+            }
+        });
+        // Application initializer
+        function initApp(user) {
+            var ref = firebase.database().ref("application");
+            var app = new DuoMonkeyEditorUI(ref, document.getElementById("back"));
+            app.setUser(user.uid, user.displayName);
+        }
+    </script>
+    <script>
+        // The logout function
+        function logout() {
+            firebase.auth().signOut().then(function() {
+                location.reload();
+
+                var a = document.getElementById("mainLink");
+                a.innerHTML = "<a href='index.html'> Home </a>"
+                var x = document.getElementById("back");
+                x.style.display = "none";
+                var y = document.getElementById("front");
+                y.style.display = "inline";
+            }).catch(function(error) {
+                console.log("Error signing user out:", error);
+            });
+        }
+    </script>
+</body>
+
 </html>

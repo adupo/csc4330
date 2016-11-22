@@ -1,4 +1,6 @@
-This is the testing document
+Software Testing Document for DuoMonkeyEditor (version 1.0 approved)
+===================================================================
+Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
 
 Test Case ID: 1
 ----------------

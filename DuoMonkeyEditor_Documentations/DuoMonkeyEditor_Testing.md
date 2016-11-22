@@ -84,7 +84,7 @@ The user is still presented with the enter password dialog popup
  
  Test Case ID: 3.1
 ------------
-Test Case Name: Chat (Invite To Session)
+Test Case Name: Chat Invite To Session
 Designed By: Blake Allen
 Executed By: Blake Allen
 Priority: Medium
@@ -144,16 +144,16 @@ Pre-Conditions:
 Post-Conditions:
  The user is viewing the 'Visitors' dropdown with a list of current visitors
 
- Test Case ID: 1
+ Test Case ID: 4
 ------------
-Test Case Name: Access Website
-Designed By: Blake Allen
-Executed By: Blake Allen
+Test Case Name: Chat Messaging
+Designed By: Wilson Zhu
+Executed By: Wilson Zhu
 Priority: High
-Short Description: Test the ability to access website
+Short Description: Test the ability to send messages
 
 Pre-Conditions:
- The user must have a stable internet connection through an internet browser
+ The user must either be in a 'Private Chat' or in a 'Chat Room'
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|

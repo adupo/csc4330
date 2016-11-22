@@ -1,7 +1,7 @@
 This is the testing document
 
 Test Case ID: 1
-------------
+----------------
 Test Case Name: Access Website
 Designed By: Blake Allen
 Executed By: Blake Allen
@@ -19,7 +19,7 @@ Post-Conditions:
  Any changes the user makes on the website are now stored in the database
 
 Test Case ID: 2
-------------
+---------------
 Test Case Name: Login
 Designed By: Aaron Dupont
 Executed By: Aaron Dupont
@@ -41,7 +41,7 @@ Post-Conditions:
  The user is now logged in to the system. The user can now use the text editor and chat features.
  
  Test Case ID: 2.1
-------------
+------------------
 Test Case Name: Login (Incorrect Username)
 Designed By: Aaron Dupont
 Executed By: Aaron Dupont
@@ -61,7 +61,7 @@ Post-Conditions:
  The user is not logged in to DuoMonkeyEditor. The user is still presented with the enter username dialog popup
  
  Test Case ID: 2.2
-------------
+------------------
 Test Case Name: Login (Incorrect Password)
 Designed By: Jason Lee
 Executed By: Jason Lee
@@ -83,7 +83,7 @@ The user is not logged in to DuoMonkeyEditor
 The user is still presented with the enter password dialog popup
  
  Test Case ID: 3.1
-------------
+-------------------
 Test Case Name: Chat Invite To Session
 Designed By: Blake Allen
 Executed By: Blake Allen
@@ -104,7 +104,7 @@ Post-Conditions:
 The user is now in a chat session with the invited user
 
  Test Case ID: 3.2
-------------
+------------------
 Test Case Name: Chat (Invite To Session: Inviting User Cancels)
 Designed By: Blake Allen
 Executed By: Blake Allen
@@ -124,7 +124,7 @@ Post-Conditions:
 The user is viewing the 'Visitors' dropdown with a list of current visitors
 
  Test Case ID: 3.3
-------------
+------------------
 Test Case Name: Chat (Invite To Session: Invited User Cancels)
 Designed By: Kevin Elizabeth
 Executed By: Kevin Elizabeth
@@ -145,7 +145,7 @@ Post-Conditions:
  The user is viewing the 'Visitors' dropdown with a list of current visitors
 
  Test Case ID: 4
-------------
+----------------
 Test Case Name: Chat Messaging
 Designed By: Wilson Zhu
 Executed By: Wilson Zhu
@@ -158,7 +158,26 @@ Pre-Conditions:
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
 |1 |Click the text box labeled 'Your Message' | |The system now shows a blinking cursor in the text box with a background message of 'Type your message here...' | |
-
+|2|Type message|'A sample message would be written here.' |The system will display characters as they are typed | |
+|3|Press the 'Enter' key | |The system displays the name, time-stamp, and message contents in the chat window | |
 
 Post-Conditions:
- Any changes the user makes on the website are now stored in the database
+ The message is now displaying on each parties screen. The message has been saved in the database and can be viewed after logging in.
+ 
+  Test Case ID: 5
+-------------------
+Test Case Name: Logout
+Designed By: Aaron Dupont
+Executed By: Aaron Dupont
+Priority: Low
+Short Description: Test the ability to logout of the DuoMonkeyEditor web application
+
+Pre-Conditions:
+ The user must be logged into DuoMonkeyEditor application
+
+|Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
+|-----|-------------------------|-----------------------------|--------------------|------------------------|
+|1 |Click the button labeled 'Logout'| |The system redirects the browser to the DuoMonkeyEditor homepage | |
+
+Post-Conditions:
+ The user is being presented with the DuoMonkeyEditorHomepage

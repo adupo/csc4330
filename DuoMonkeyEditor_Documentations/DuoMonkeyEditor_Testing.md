@@ -150,14 +150,15 @@ Test Case Name: Chat Messaging
 Designed By: Wilson Zhu
 Executed By: Wilson Zhu
 Priority: High
-Short Description: Test the ability to send messages
+Short Description: Test the ability to send messages in the chat feature
 
 Pre-Conditions:
  The user must either be in a 'Private Chat' or in a 'Chat Room'
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
-|1 |Type the website address into a browser | DuoMonkeyEditor.com|The system displays the home page for DuoMonkeyEditor | |
+|1 |Click the text box labeled 'Your Message' | |The system now shows a blinking cursor in the text box with a background message of 'Type your message here...' | |
+
 
 Post-Conditions:
  Any changes the user makes on the website are now stored in the database

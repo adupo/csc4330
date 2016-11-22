@@ -85,20 +85,57 @@ Post-Conditions:
  *The user is now logged in to the system
  *The user can now use the text editor and chat features.
  
- Test Case ID: 1
+ Test Case ID: 
 ------------
-Test Case Name: Access Website
-Designed By: Blake Allen
-Executed By: Blake Allen
+Test Case Name: Create Chat Session
+Designed By: Wilson Zhu
+Executed By: Wilson Zhu
 Priority: High
-Short Description: Test the ability to access website
-
-Pre-Conditions:
- *The user must have a stable internet connection through an internet browser
+Short Description: Test the ability to create a new chat session
+ *The user must be already logged in to DuoMonkeyEditor
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
-|1 |Type the website address into a browser | DuoMonkeyEditor.com|The system displays the home page for DuoMonkeyEditor | |
+|1 |Click 'Chat Room' button| |A drop down list appears with 'Creat Session' button| |
+|2 |Click 'Create Session' button| |A pop up box will appear for user to input session name and password| |
+|3 |Type in session name and password|'session name' 'password'|A text editor appears on the left and chat room on right with 'Invite' and 'In room' drop down buttons| |
 
 Post-Conditions:
- *Any changes the user makes on the website are now stored in the database
+ *A new chat session has been created
+ *The user is now in a chat session by himself
+ 
+ Test Case ID: 
+------------
+Test Case Name: Join an existing chat session with the right password
+Designed By: Kevin Elizabeth
+Executed By: Kevin Elizabeth
+Priority: High
+Short Description: Test the ability to join a existing chat session  
+ *The user must be already logged in to DuoMonkeyEditor
+
+|Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
+|-----|-------------------------|-----------------------------|--------------------|------------------------|
+|1 |Click 'Chat Room' button| |A drop down list appears with 'Creat Session' button| |
+|2 |Click an existing seesion name from list| |A pop up box 'Join a Session' will appear for user to input session password| |
+|3 |Type in session password then hit 'Enter'|'password'|A text editor appears on the left with previous work displayed and chat room on right with previously messages displayed| |
+
+Post-Conditions:
+ *The user is now in a already existing chat session
+ 
+ Test Case ID: 
+------------
+Test Case Name: Join an existing chat session with the wrong password
+Designed By: Kevin Elizabeth
+Executed By: Kevin Elizabeth
+Priority: High
+Short Description: Test the ability to join a existing chat session  
+ *The user must be already logged in to DuoMonkeyEditor
+
+|Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
+|-----|-------------------------|-----------------------------|--------------------|------------------------|
+|1 |Click 'Chat Room' button| |A drop down list appears with 'Creat Session' button| |
+|2 |Click an existing seesion name from list| |A pop up box 'Join a Session' will appear for user to input session password| |
+|3 |Type in session password then hit 'Enter'|'wrong password'|The pop up box 'Join a Session' disappears|after inputing wrong password, we want a pop or alert box to appear to say 'Wrong Password'|
+
+Post-Conditions:
+ *The user did not successfully join an exisitng chat session

@@ -97,7 +97,10 @@ Pre-Conditions:
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
-|1 |Click 'Visitors' dropdown box | DuoMonkeyEditor.com|The system displays the home page for DuoMonkeyEditor | |
+|1 |Click 'Visitors' dropdown box | |The system displays a list of current visitors in the dropdown | |
+|2|Click another visitors name from the 'Visitors' dropdown list| |The system displays a popup labeled 'Private Invite' that shows 'Invite' and 'Cancel' buttons| |
+|3|Click 'Invite' button |The system displays a popup labeled 'Invite'  on the invited users screen|
+|4|Other visitor clicks 'accept' button on the 
 
 Post-Conditions:
  *Any changes the user makes on the website are now stored in the database

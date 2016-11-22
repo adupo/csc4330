@@ -87,12 +87,14 @@ Post-Conditions:
  
  Test Case ID: 
 ------------
-Test Case Name: Create Chat Session
-Designed By: Wilson Zhu
-Executed By: Wilson Zhu
-Priority: High
-Short Description: Test the ability to create a new chat session
- *The user must be already logged in to DuoMonkeyEditor
+
+Test Case Name: Create Chat Session<br\>
+Designed By: Wilson Zhu<br\>
+Executed By: Wilson Zhu<br\>
+Priority: High<br\>
+Short Description: Test the ability to create a new chat session<br\>
+Pre-Conditions:<br\>
+ *The user must be already logged in to DuoMonkeyEditor<br\>
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
@@ -100,18 +102,19 @@ Short Description: Test the ability to create a new chat session
 |2 |Click 'Create Session' button| |A pop up box will appear for user to input session name and password| |
 |3 |Type in session name and password|'session name' 'password'|A text editor appears on the left and chat room on right with 'Invite' and 'In room' drop down buttons| |
 
-Post-Conditions:
- *A new chat session has been created
- *The user is now in a chat session by himself
+Post-Conditions:<br\>
+ *A new chat session has been created<br\>
+ *The user is now in a chat session by himself<br\>
  
  Test Case ID: 
 ------------
-Test Case Name: Join an existing chat session with the right password
-Designed By: Kevin Elizabeth
-Executed By: Kevin Elizabeth
-Priority: High
-Short Description: Test the ability to join a existing chat session  
- *The user must be already logged in to DuoMonkeyEditor
+Test Case Name: Join an existing chat session with the right password<br\>
+Designed By: Kevin Elizabeth<br\>
+Executed By: Kevin Elizabeth<br\>
+Priority: High<br\>
+Short Description: Test the ability to join a existing chat session  <br\>
+Pre-Conditions:<br\>
+ *The user must be already logged in to DuoMonkeyEditor<br\>
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
 |-----|-------------------------|-----------------------------|--------------------|------------------------|
@@ -119,8 +122,8 @@ Short Description: Test the ability to join a existing chat session
 |2 |Click an existing seesion name from list| |A pop up box 'Join a Session' will appear for user to input session password| |
 |3 |Type in session password then hit 'Enter'|'password'|A text editor appears on the left with previous work displayed and chat room on right with previously messages displayed| |
 
-Post-Conditions:
- *The user is now in a already existing chat session
+Post-Conditions:<br\>
+ *The user is now in a already existing chat session<br\>
  
  Test Case ID: 
 ------------
@@ -129,6 +132,7 @@ Designed By: Kevin Elizabeth
 Executed By: Kevin Elizabeth
 Priority: High
 Short Description: Test the ability to join a existing chat session  
+Pre-conditions: 
  *The user must be already logged in to DuoMonkeyEditor
 
 |Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
@@ -139,3 +143,23 @@ Short Description: Test the ability to join a existing chat session
 
 Post-Conditions:
  *The user did not successfully join an exisitng chat session
+
+Test Case ID: 
+------------
+Test Case Name: Using text editor in an existing chat session
+Designed By: Kevin Elizabeth
+Executed By: Kevin Elizabeth
+Priority: High
+Short Description: Test the ability to type in a text editor in a chat session  
+Pre-Condition:  
+ *The user must be already logged in to DuoMonkeyEditor
+ *The user must be logged in to a session.
+
+|Step |Action                   |Sample Input Data            |Expected Outcomes   |Comment                 |
+|-----|-------------------------|-----------------------------|--------------------|------------------------|
+|1 |Click inside the text editor| |The cursor flashes inside the text editor| |
+|2 |Begin typing|'hello world'|on the text editor "hello world" should be displayed| |
+|3 |highlight text with mouse| |The selected text is highlighted on both users' screens| |
+
+
+Post-Conditions:

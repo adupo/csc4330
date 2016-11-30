@@ -1,44 +1,56 @@
-Index
+Project Management for DuoMonkeyEditor (version 1.0 approved)
+===================================================================
+Created by Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth, Wilson Zhu
+
+Table Of Contents
 =====
-** Note: Use Ctrl-F to navigate the document **
-- Vision
-- Configuration Management Plan
-- Process Model
-- Deliverables
-- Potential Risks
-- Team Members (w/ their roles & tasks)
-- Project Schedule
-- Meetings Summary
+1. Vision
+2. Configuration Management
+3. Process Model
+4. Deliverables
+5. Potential Risks
+6. Team Members
+7. Project Schedule
+8. Meetings Summary
 
-Vision
-======
-The ultimate goal of our project is to develop a web-based text editor that solves a big issue of pair programming, which is logistical issues. A lot of us can all understand the problems of finding time to be able to get together with our partners (if not, sucks to be you). Our final product will deliver a simple text editor that has synchronized editing and a messaging system that allows communication between the two programmers.
+1. Vision
+=========
+&nbsp;&nbsp;&nbsp;The ultimate goal of our project is to develop a web-based text editor that solves a major complication with traditional pair programming, which is conquering logistical issues. The majority of developers understand the problems that arise when organizing a meeting to get together with partners. The completion of this project delivers a simple text editor that has synchronized text editing and a messaging system that allows communication between the two programmers.
 
-Configuration Management Plan
-=============================
-The project source code and important documentations will be stored in GitHub and ***only*** approved changes will be allowed to merge with the repository. GitHub will provide the necessary means to resolve conflicts should two or more changes (or upload) interfere with each other. We expect everyone to do their delegated tasks and upload their files via a pull request in a timely manner, so the group can look over the file.
+2. Configuration Management
+===========================
+&nbsp;&nbsp;&nbsp;The project source code and important documentations will be stored in GitHub and ***only*** approved changes will be allowed to merge with the repository. GitHub will provide the necessary means to resolve conflicts should two or more changes (or upload) interfere with each other. We expect everyone to do their delegated tasks and upload their files via a pull request in a timely manner, so the group can look over the file.
 
-Process Model
-=============
-See: https://en.wikipedia.org/wiki/Process_modeling
+3. Process Model
+================
+&nbsp;&nbsp;&nbsp;There are multiple factors that helped us choose Extreme Programming when discussing an approriate process model for the DuoMonkeyEditor project. 
 
-**TODO**: ask prof. Nash how he wants to do this
 
-Deliverables
-============
-See: http://www.projectengineer.net/25-example-project-deliverables/
+4. Deliverables
+===============
+&nbsp;&nbsp;&nbsp;See: http://www.projectengineer.net/25-example-project-deliverables/
 
-**TODO**: add more stuff here
 - Website: the main product
 
-Potential Risks
-===============
-**TODO**: add more stuff here
+5. Potential Risks
+==================
 Here are the possible risks that our group must consider for the project:
 - The website requires the user to sign-in with their Google account or GitHub, sensitive information may be leaked or stolen
 - Users may work with important data/code that have a possibility of being lost should there be something wrong with the server
 - Code done on the website have a possibility of being stolen
 
-Team Members
-============
+6. Team Members
+===============
 Development of the project will be conducted in a ... style
+
+7. Project Schedule
+===================
+
+8. Meetings Summary
+===================
+
+-Initial Meeting/Split up work
+
+-Software Requirements Specification (Right before due date)
+
+-Presentation Review/Final Meeting

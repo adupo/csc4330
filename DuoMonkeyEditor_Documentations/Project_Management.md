@@ -42,7 +42,7 @@ nbsp;&nbsp;&nbsp;The possible risks must be considered for this project are as f
 - Users may work with important data/code that has a possibility of being lost should issues arise with the appliction or server.
 - Code written on the web application may have a possibility of being stolen.
 - The complexity of this project may result in ajustments to meet the strict deadlines that have been set.
--
+
 
 6. Team Members
 ===============

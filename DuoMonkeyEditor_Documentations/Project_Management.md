@@ -24,24 +24,34 @@ Table Of Contents
 3. Process Model
 ================
 &nbsp;&nbsp;&nbsp;There are multiple factors that helped us choose Extreme Programming when discussing an approriate process model for the DuoMonkeyEditor project. The strict and short deadline, as well as the need for constant communication, is a nmajor reason that extreme programming was selected as the processs model for this project. 
+<br /><br />
 &nbsp;&nbsp;&nbsp;To ensure that this project would be meet the necessary requirements, as defined in the software requireemnts specification document, the main principles of extreme programming need to be followed. These important principles are communication, simplicity, courage, and feedback. Besides constant communication, another facet of extreme programming that is necessary to follow is pair programing. Using pair programming techniques, as well as other extreme programming practices, will allow the project to be completed in such a short timeframe and will result in the most error-free product. 
 
 
 4. Deliverables
 ===============
-&nbsp;&nbsp;&nbsp;See: http://www.projectengineer.net/25-example-project-deliverables/
+&nbsp;&nbsp;&nbsp;Please see the following links to the project deliverables (Note: The final product will be dmonstrated upon completion of the project)
+-Documentation: https://github.com/adupo/csc4330/tree/master/DuoMonkeyEditor_Documentations
+-Final Product: https://duomonkeyeditor-5e358.firebaseapp.com/#
 
 
 5. Potential Risks
 ==================
-Here are the possible risks that our group must consider for the project:
-- The website requires the user to sign-in with their Google account or GitHub, sensitive information may be leaked or stolen
-- Users may work with important data/code that have a possibility of being lost should there be something wrong with the server
-- Code done on the website have a possibility of being stolen
+nbsp;&nbsp;&nbsp;The possible risks must be considered for this project are as follows:
+- The website requires the user to sign-in with their Google account or GitHub, sensitive information may be leaked or stolen.
+- Users may work with important data/code that has a possibility of being lost should issues arise with the appliction or server.
+- Code written on the web application may have a possibility of being stolen.
+- The complexity of this project may result in ajustments to meet the strict deadlines that have been set.
+-
 
 6. Team Members
 ===============
-Development of the project will be conducted in a ... style
+nbsp;&nbsp;&nbsp;Development of the project will be conducted resembling a heirarchical team style. The documentation and project management will be the responsibilty of Aaron Dupont while the code deisgn and applicaiton architect will be managed by Wilson Zhu. Both the Project Manager (Aaron Dupont) and Application Architect (Wilson Zhu) will delegate document and coding tasks to the other members throughout the duration of this project.
+<br />
+<br />
+Please see the below hierarchy of the DuoMonkeyEditor team:
+
+
 
 7. Project Schedule
 ===================

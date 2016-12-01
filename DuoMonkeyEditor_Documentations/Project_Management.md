@@ -50,9 +50,7 @@ nbsp;&nbsp;&nbsp;Development of the project will be conducted resembling a heira
 <br />
 <br />
 Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
-<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" align="center"/> <br />
-
-
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" margin="auto"/> <br />
 
 7. Project Schedule
 ===================
@@ -63,5 +61,7 @@ Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 -Initial Meeting/Split up work
 
 -Software Requirements Specification (Right before due date)
+
+-Software Testing Document
 
 -Presentation Review/Final Meeting

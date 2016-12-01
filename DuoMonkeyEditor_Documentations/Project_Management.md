@@ -25,7 +25,7 @@ Table Of Contents
 ================
 &nbsp;&nbsp;&nbsp;There are multiple factors that helped us choose Extreme Programming when discussing an approriate process model for the DuoMonkeyEditor project. The strict and short deadline, as well as the need for constant communication, is a nmajor reason that extreme programming was selected as the processs model for this project. 
 <br /><br />
-&nbsp;&nbsp;&nbsp;To ensure that this project would be meet the necessary requirements, as defined in the software requireemnts specification document, the main principles of extreme programming need to be followed. These important principles are communication, simplicity, courage, and feedback. Besides constant communication, another facet of extreme programming that is necessary to follow is pair programing. Using pair programming techniques, as well as other extreme programming practices, will allow the project to be completed in such a short timeframe and will result in the most error-free product. 
+&nbsp;&nbsp;&nbsp;To ensure that this project would meet the necessary requirements, as defined in the software requireemnts specification document, the main principles of extreme programming need to be followed. These important principles are communication, simplicity, courage, and feedback. Besides constant communication, another facet of extreme programming that is necessary to follow is pair programing. Using pair programming techniques, as well as other extreme programming practices, will allow the project to be completed in such a short timeframe and will result in the most error-free product. 
 
 
 4. Deliverables

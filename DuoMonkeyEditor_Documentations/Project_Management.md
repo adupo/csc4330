@@ -49,8 +49,8 @@ nbsp;&nbsp;&nbsp;The possible risks must be considered for this project are as f
 nbsp;&nbsp;&nbsp;Development of the project will be conducted resembling a heirarchical team style. The documentation and project management will be the responsibilty of Aaron Dupont while the code deisgn and applicaiton architect will be managed by Wilson Zhu. Both the Project Manager (Aaron Dupont) and Application Architect (Wilson Zhu) will delegate document and coding tasks to the other members throughout the duration of this project.
 <br />
 <br />
-Please see the below hierarchy of the DuoMonkeyEditor team:<br />
-<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy"/> <br />
+Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" align="center"/> <br />
 
 
 

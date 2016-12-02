@@ -54,6 +54,7 @@ Table Of Contents
 <br />
 Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 <img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" margin="auto"/> <br />
+Aaron Dupont: As the Project Manager, my main tasks included making everyone aware of the deadlines and overseeing communication within the group. I focused most of my attention on the documentation for this project. I formed the outline for the documents and delegated some of the work when appropriate. In addition to the above, I organized each meeting for the group and led the organizaiton of our product delivery presentaiton.
 
 7. Project Schedule
 ===================

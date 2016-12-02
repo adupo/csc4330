@@ -56,7 +56,7 @@ Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 <img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" margin="auto"/> <br />
 Aaron Dupont: As the Project Manager, my main tasks included making everyone aware of the deadlines and overseeing communication within the group. I focused most of my attention on the documentation for this project. I formed the outline for the documents and delegated some of the work when appropriate. In addition to the above, I organized each meeting for the group and led the organizaiton of our product delivery presentation.
 
-Wilson Zhu: As the software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I was set up the website which contains the application.
+Wilson Zhu: As the lead software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I was set up the website which contains the application.
 
 7. Project Schedule
 ===================

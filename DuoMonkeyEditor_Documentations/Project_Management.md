@@ -10,7 +10,7 @@ Table Of Contents
 4. Deliverables
 5. Potential Risks
 6. Team Members
-7. Project Schedule 
+7. Project Schedule
 8. Meetings Summary
 
 1. Vision
@@ -46,7 +46,8 @@ nbsp;&nbsp;&nbsp;The possible risks must be considered for this project are as f
 
 6. Team Members
 ===============
-nbsp;&nbsp;&nbsp;Development of the project will be conducted resembling a heirarchical team style. The documentation and project management will be the responsibilty of Aaron Dupont while the code deisgn and applicaiton architect will be managed by Wilson Zhu. Both the Project Manager (Aaron Dupont) and Application Architect (Wilson Zhu) will delegate document and coding tasks to the other members throughout the duration of this project.
+&nbsp;&nbsp;&nbsp; Development of the project will be conducted resembling a heirarchical team style. The documentation and project management will be the responsibilty of Aaron Dupont while the code deisgn and applicaiton architect will be managed by Wilson Zhu. Both the Project Manager (Aaron Dupont) and Application Architect (Wilson Zhu) will delegate document and coding tasks to the other members throughout the duration of this project.
+
 <br />
 <br />
 Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
@@ -58,10 +59,40 @@ Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 8. Meetings Summary
 ===================
 
--Initial Meeting/Split up work
+&nbsp;&nbsp;&nbsp;Initial Meeting
+--------------------------------
+**Attendees:** Aaron Dupont, Wilson Zhu, Blake Allen, Jason Lee, Kevin Elizabeth <br />
+**Date:** September 26, 2016<br />
+**Time:** 6:00 PM<br />
+**Objectives:** Assign Job Duties<br /><br />
+&nbsp;&nbsp;&nbsp;The purpose of this meeting is to further discuss the ideas of a text editor system and assign possible roles to complete the project. Wilson has already completed some research on this idea and has shared the idea of using an open source application called FirePad to complete the text editor portion. The team will independently research the possibilities of this application and become familiar with its code editing uses. One issue we may run into is the ability to synchronize the text between users. The team has also been tasked with finding a laptop to act as the server for the website. While everyone is looking for a spare laptop, Wilson will further research the posibilties of using a free or cheap alternative to managing our own server. <br /> <br />
 
--Software Requirements Specification (Right before due date)
+The work will be divided as follows:
+	Wilson Zhu: Application Architect (Focusing on Back End)
+	Blake Allen: Log In/Back End
+	Aaron Dupont: Documentation/CSS Styling
+	Jason Lee: Server
+	Kevin Elizabeth: Log In/Back End/Documentation
+<br /> <br />
+&nbsp;&nbsp;&nbsp;Software Requirements Specification Document
+-------------------------------------------------------------
+**Attendees:** Aaron Dupont, Wilson Zhu, Blake Allen, Jason Lee, Kevin Elizabeth<br />
+**Date:** October 17, 2016<br />
+**Time:** 6:00 PM<br />
+**Objectives:** Discus/Begin Softare Requirements<br /><br />
 
--Software Testing Document
+&nbsp;&nbsp;&nbsp;Software Testing Document
+------------------------------------------
+**Attendees:** Aaron Dupont, Blake Allen, Jason Lee, Kevin Elizabeth<br />
+**Date:** November 21, 2016<br />
+**Time:** 6:00 PM<br />
+**Objectives:**Develop Tests and Outcomes<br /><br />
 
--Presentation Review/Final Meeting
+&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp; Presentation Review/Final Meeting
+---------------------------------------------------
+**Attendees:** Aaron Dupont, Wilson Zhu, Blake Allen, Jason Lee, Kevin Elizabeth<br />
+**Date:** November 11, 2016<br />
+**Time:** 4:00 PM<br />
+**Objectives:**Review Presentation Slides & Create Demo Video<br /><br />

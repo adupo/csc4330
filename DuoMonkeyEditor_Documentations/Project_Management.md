@@ -60,7 +60,7 @@ Wilson Zhu: As the lead software developer, my main task was developing the appl
 
 Blake Allen: 
 
-Jason Lee: As a software developer, my main tasks included implimenting backend server while helping out with testing and documentations. While implimenting the server was my main task, I also spend time testing and documentation whenever I can. 
+Jason Lee: As a software developer, my main tasks included implimenting backend server while helping out with testing and documentations. While implimenting the server was my main task, I also spent time testing and documentation whenever I can. 
 
 Kevin Elizabeth: As a software developer, my main tasks included working on the log in feature, some of the back end work, and creating and monitoring some test cases of different features. I divided my time between these three tasks along with helping with the documentation.
 

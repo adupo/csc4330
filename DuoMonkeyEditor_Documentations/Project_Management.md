@@ -58,8 +58,28 @@ Aaron Dupont: As the Project Manager, my main tasks included making everyone awa
 
 Wilson Zhu: As the lead software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I was set up the website which contains the application.
 
+Blake Allen: 
+
+Jason Lee:
+
+Kevin Elizabeth: As a software developer, my main tasks included working on the log in feature, some of the back end work, and creating and monitoring some test cases of different features. I divided my time between these three tasks along with helping with the documentation.
+
 7. Project Schedule
 ===================
+| Milestones | Description      | Milestone Criteria       | Planned Date |
+| ---------- |:----------------:| ------------------       |:------------:|
+| M0         | Start Project    | Present project topic to class | 09/07/16     |
+|            | Divide up duties of project and discuss project scope | Hold meeting with group members   | 09/26/16     |
+| M1         | Complete and submit SRS Document |  | 10/21/16   |
+|            | Create document with all required features and requirements for project | Completed SRS document | 10/21/16   |
+| M2         | Complete and submit SDD                 |   | 11/02/16 |
+|            | Describe all design styles and aspects of project | Completed Software Design Document  | 11/02/16 |
+| M3         | Complete and submit Test Document |             | 11/21/16     |
+|            | Develop test cases for each feature | Completed Test Document | 11/21/16     |   
+| M4         | Presentation    |   | 11/28/16     |
+|            | Prepare and rehearse presentation for the class | Have working demo and complete presentation | 11/28/16     |
+| M5         | Finish Project    |  | 12/2/16     |
+|            | Review code and complete Project Management Document | Submit Code and Project Management Document | 12/2/16     |
 
 8. Meetings Summary
 ===================

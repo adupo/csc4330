@@ -58,7 +58,8 @@ Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 
 8. Meetings Summary
 ===================
-
+Below is a list of meetings the group had along with a description. Please note that instead of having multiple lengthy meetings, the group chose to stay in constant communication via Facebook Messenger and SMS to communicate progress and goals.
+<br />
 &nbsp;&nbsp;&nbsp;Initial Meeting
 --------------------------------
 **Attendees:** Aaron Dupont, Wilson Zhu, Blake Allen, Jason Lee, Kevin Elizabeth <br />
@@ -73,13 +74,7 @@ The work will be divided as follows:<br />
 &nbsp;&nbsp;&nbsp;	Aaron Dupont: Documentation/CSS Styling<br /> 
 &nbsp;&nbsp;&nbsp;	Jason Lee: Server<br /> 
 &nbsp;&nbsp;&nbsp;	Kevin Elizabeth: Log In/Back End/Documentation<br /> 
-<br /> <br />
-&nbsp;&nbsp;&nbsp;Software Requirements Specification Document
--------------------------------------------------------------
-**Attendees:** Aaron Dupont, Wilson Zhu, Blake Allen, Jason Lee, Kevin Elizabeth<br />
-**Date:** October 17, 2016<br />
-**Time:** 6:00 PM<br />
-**Objectives:** Discus/Begin Softare Requirements<br /><br />
+<br />
 
 &nbsp;&nbsp;&nbsp;Software Testing Document
 ------------------------------------------

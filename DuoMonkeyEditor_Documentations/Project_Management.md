@@ -56,13 +56,13 @@ Please see the below hierarchy of the DuoMonkeyEditor team:<br /> <br />
 <img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Hierarchy.png" alt="Heirarchy" margin="auto"/> <br />
 Aaron Dupont: As the Project Manager, my main tasks included making everyone aware of the deadlines and overseeing communication within the group. I focused most of my attention on the documentation for this project. I formed the outline for the documents and delegated some of the work when appropriate. In addition to the above, I organized each meeting for the group and led the organizaiton of our product delivery presentation.
 
-Wilson Zhu: As the lead software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I was set up the website which contains the application.
+Wilson Zhu: As the lead software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I also set up the website which contains the application.
 
-Blake Allen: As a software developer, my main tasks was to intergrate the Log In functionality of the website using the google log in open source code. Under the guidance of Wilson, I also helped with the back end functionality of the application. While making these items functional I also helped with documentation and testing. 
+Blake Allen: As a software developer, my main tasks was to modify the UI components of the application as well as the binding them to the their respective functions (under the guidance of Wilson). While making these components functional I also helped with documentation and testing. 
 
-Jason Lee: As a software developer, my main tasks included implimenting backend server while helping out with testing and documentations. While implimenting the server was my main task, I also spent time testing and documentation whenever I can. 
+Jason Lee: As a software developer, my main task was to integrate the application to the website along with organizing/formatting it (under the guidance of Wilson) as well as helping out with documentation.
 
-Kevin Elizabeth: As a software developer, my main tasks included working on the log in feature, some of the back end work, and creating and monitoring some test cases of different features. I divided my time between these three tasks along with helping with the documentation.
+Kevin Elizabeth: As a software developer, my main tasks included maintaining the Firebase database, creating the schema of the database and creating and monitoring some test cases of different features. I divided my time between these three tasks along with helping with the documentation.
 
 7. Project Schedule
 ===================

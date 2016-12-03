@@ -58,7 +58,7 @@ Aaron Dupont: As the Project Manager, my main tasks included making everyone awa
 
 Wilson Zhu: As the lead software developer, my main task was developing the application as well as deploying the website. Because the project was mostly comprised of open source applications, I was tasked to figure out the inner works of the applications and modifying them to meet our project requirements. In addition to developing the application, I was set up the website which contains the application.
 
-Blake Allen: 
+Blake Allen: As a software developer, my main tasks was to intergrate the Log In functionality of the website using the google log in open source code. Under the guidance of Wilson, I also helped with the back end functionality of the application. While making these items functional I also helped with documentation and testing. 
 
 Jason Lee: As a software developer, my main tasks included implimenting backend server while helping out with testing and documentations. While implimenting the server was my main task, I also spent time testing and documentation whenever I can. 
 

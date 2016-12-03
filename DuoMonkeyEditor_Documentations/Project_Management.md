@@ -81,6 +81,10 @@ Kevin Elizabeth: As a software developer, my main tasks included working on the 
 | M5         | Finish Project    |  | 12/2/16     |
 |            | Review code and complete Project Management Document | Submit Code and Project Management Document | 12/2/16     |
 
+### Gantt Chart
+
+<img src="https://github.com/adupo/csc4330/blob/master/DuoMonkeyEditor_Documentations/Assets/Gantt_Chart.png" alt="Gantt" margin="auto"/> <br />
+
 8. Meetings Summary
 ===================
 Below is a list of meetings the group had along with a description. Please note that instead of having multiple lengthy meetings, the group chose to stay in constant communication via Facebook Messenger and SMS to communicate progress and goals.
